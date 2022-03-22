@@ -1,0 +1,21 @@
+body {
+  background-color: #282c34;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.fillWindow {
+  Top: 0;
+  Left: 0;
+  Right: 0;
+  Bottom: 0;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  color: rgb(14, 13, 13);
+  background-color: #349da5;
+  text-align: center;
+  line-height: 700px;
+}
