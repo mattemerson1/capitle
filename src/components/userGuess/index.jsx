@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import capitalsData from '../../data/capitals_data.json';
-// import "bootstrap/dist/css/bootstrap.min.css";
-
 
 import styles from './userGuess.module.css'
 
