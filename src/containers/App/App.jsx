@@ -51,7 +51,7 @@ const gameContainer = () => {
         <meta name="description" content="Capitals quiz" />
       </Helmet>
       <h1>Capitle</h1>
-      <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame}/>
+      <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} currentAnswer={currentAnswer}/>
       <UserGuess guesses={guesses} currentAnswer={currentAnswer}/>
       {correctGuess && <CorrectGuess guesses={guesses}/>}
       {isEndGame && <EndGame/>}

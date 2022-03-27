@@ -2,21 +2,26 @@ import React, { useEffect, useState } from 'react';
 
 const UserInput = (props) => {
   const [userGuess, setUserGuess] = useState("");
-  const [isDisabled, setIsDisabled] = useState(false);
+  const [isEndGame, setIsEndGame] = useState(false);
+  const [isGameWon, setIsGameWon] = useState(false);
   
   const addGuess = (userGuess, e) => {
     props.addGuess(userGuess, e);
     setUserGuess("");
-    console.log(props.guesses, "<======");
     if (props.guesses.length > 4) {
-      handleDisable()
+      handleEndGame()
+    } else if (userGuess === props.currentAnswer.Capital_city) {
+      handleWinGame()
     }
   }
 
-  const handleDisable = () => {
-    console.log("DISABLED");
-    setIsDisabled(true)
+  const handleEndGame = () => {
+    setIsEndGame(true)
     props.endGame()
+  }
+
+  const handleWinGame = () => {
+    setIsGameWon(true)
   }
 
   return (
@@ -24,7 +29,7 @@ const UserInput = (props) => {
       <label>Enter capital city:
         <input
           type="text"
-          disabled={isDisabled}
+          disabled={isGameWon || isEndGame}
           value={userGuess}
           onChange={(e) => setUserGuess(e.target.value)}
         />
