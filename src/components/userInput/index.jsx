@@ -6,11 +6,12 @@ const UserInput = (props) => {
   const [isGameWon, setIsGameWon] = useState(false);
   
   const addGuess = (userGuess, e) => {
-    props.addGuess(userGuess, e);
+    const formatUserGuess = userGuess.charAt(0).toUpperCase() + userGuess.slice(1).toLowerCase();
+    props.addGuess(formatUserGuess, e);
     setUserGuess("");
     if (props.guesses.length > 4) {
       handleEndGame()
-    } else if (userGuess === props.currentAnswer.Capital_city) {
+    } else if (formatUserGuess === props.currentAnswer.Capital_city) {
       handleWinGame()
     }
   }
