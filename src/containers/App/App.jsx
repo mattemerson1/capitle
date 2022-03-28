@@ -24,8 +24,8 @@ const gameContainer = () => {
     randomCapital()
   },[])
   
-  const addGuess = (guess, event) => {
-    event.preventDefault();
+  const addGuess = (guess) => {
+    // event.preventDefault();
     setGuesses([...guesses, guess])
     checkGuess(guess)
   };

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Autocomplete, TextField } from '@mui/material';
 
 const capitalCities = ['London', 'Beijing', 'Mexico city', 'Canberra', 'Gitega']
@@ -7,15 +7,18 @@ const UserInput = (props) => {
   const [userGuess, setUserGuess] = useState("");
   const [isEndGame, setIsEndGame] = useState(false);
   const [isGameWon, setIsGameWon] = useState(false);
+  const ref = useRef();
 
-  const addGuess = (userGuess, e) => {
-    console.log("add GUESS", userGuess, e.target.value);
-    const formatUserGuess = userGuess.charAt(0).toUpperCase() + userGuess.slice(1).toLowerCase();
-    props.addGuess(formatUserGuess, e);
+  const addGuess = (userGuess) => {
+    console.log("userGUESS", userGuess);
+    // console.log("e", e.target.value);
+    // const formatUserGuess = userGuess.charAt(0).toUpperCase() + userGuess.slice(1).toLowerCase();
+    props.addGuess(userGuess);
+    ref.current.focus();
     setUserGuess("");
     if (props.guesses.length > 4) {
       handleEndGame()
-    } else if (formatUserGuess === props.currentAnswer.Capital_city) {
+    } else if (userGuess === props.currentAnswer.Capital_city) {
       handleWinGame()
     }
   }
@@ -30,30 +33,26 @@ const UserInput = (props) => {
   }
 
   return (
-    // <form onSubmit={(e) => addGuess(userGuess, e)}>
-    //   <label>Enter capital city:
-    //     <input
-    //       type="text"
-    //       disabled={isGameWon || isEndGame}
-    //       value={userGuess}
-    //       onChange={(e) => setUserGuess(e.target.value)}
-    //     />
-    //   </label>
-    // </form>
+    <>
     <Autocomplete
       disablePortal
+      key={""}
       id="combo-box-demo"
       options={capitalCities}
       sx={{ width: 300 }}
-      value={userGuess}
-      onChange={(e, userGuess) => addGuess(userGuess, e) && e.preventDefault()}
+      value={userGuess || null}
+      onChange={(e, newGuess) => {
+          addGuess(newGuess)
+          // e.preventDefault()
+        }}
       disabled={isGameWon || isEndGame}
       renderInput={(params) => <TextField
         {...params}
         label="Enter capitial city:"
-
       />}
     />
+    <div tabIndex={0} ref={ref}/>
+    </>
   );
 };
 
