@@ -21,8 +21,6 @@ const UserGuess = (props) => {
 
   const correctPopulationRank = (guess) => {
     const guessCityData = capitalsData.find(cityData => cityData.Capital_city === guess);
-    console.log(guessCityData.Population_rank, "1");
-    console.log(props.currentAnswer.Population_rank, "2");
     if (guessCityData.Population_rank === props.currentAnswer.Population_rank) {
       console.log("TRUE");
       return true

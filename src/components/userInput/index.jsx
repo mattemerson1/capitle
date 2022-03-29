@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Autocomplete, TextField } from '@mui/material';
 
-const capitalCities = ['London', 'Beijing', 'Mexico city', 'Canberra', 'Gitega']
+const capitalCities = ['London', 'Beijing', 'Mexico City', 'Canberra', 'Gitega']
 
 const UserInput = (props) => {
   const [userGuess, setUserGuess] = useState("");
@@ -10,8 +10,6 @@ const UserInput = (props) => {
   const ref = useRef();
 
   const addGuess = (userGuess) => {
-    console.log("userGUESS", userGuess);
-    // console.log("e", e.target.value);
     // const formatUserGuess = userGuess.charAt(0).toUpperCase() + userGuess.slice(1).toLowerCase();
     props.addGuess(userGuess);
     ref.current.focus();
