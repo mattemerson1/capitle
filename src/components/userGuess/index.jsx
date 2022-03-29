@@ -14,15 +14,28 @@ const UserGuess = (props) => {
     console.log(cityData, "CITYDATA");
     return cityData && cityData.Population_rank;
   };
-
   const correctPopulationRank = (guess) => {
-    console.log(guess, "<====== GUESS");
     const guessCityData = capitalsData.find(cityData => cityData.Capital_city === guess);
     if (guessCityData.Population_rank === props.currentAnswer.Population_rank) {
-      console.log("TRUE");
       return true
     }
-    console.log("FALSE");
+    return false
+  }
+
+  const calculateContinent = (guess) => {
+    const continent = findContinentByCity(guess)
+    return continent
+  }
+
+  const findContinentByCity = (guess) => {
+    const cityData = capitalsData.find(cityData => cityData.Capital_city === guess);
+    return cityData && cityData.Continent;
+  };
+  const correctContinent = (guess) => {
+    const guessCityData = capitalsData.find(cityData => cityData.Capital_city === guess);
+    if (guessCityData.Continent === props.currentAnswer.Continent) {
+      return true
+    }
     return false
   }
 
@@ -33,6 +46,7 @@ const UserGuess = (props) => {
         <tr>
           <th>Capital City</th>
           <th>Population Rank</th>
+          <th>Continent</th>
         </tr>
       </thead>
       <tbody>
@@ -41,6 +55,10 @@ const UserGuess = (props) => {
           <td 
           style={{backgroundColor: correctPopulationRank(guess) ? 'green' : 'red' }}>
             {calculatePopulation(guess)}
+          </td>
+          <td 
+          style={{backgroundColor: correctContinent(guess) ? 'green' : 'red' }}>
+            {calculateContinent(guess)}
           </td>
         </tr>)}
       </tbody>
