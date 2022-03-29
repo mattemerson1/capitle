@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Autocomplete, TextField } from '@mui/material';
-
-const capitalCities = ['London', 'Beijing', 'Mexico City', 'Canberra', 'Gitega']
+import capitalsData from '../../data/capitals_data.json';
 
 const UserInput = (props) => {
   const [userGuess, setUserGuess] = useState("");
@@ -36,11 +35,12 @@ const UserInput = (props) => {
       disablePortal
       key={""}
       id="combo-box-demo"
-      options={capitalCities}
+      options={capitalsData}
+      getOptionLabel={city => city.Capital_city}
       sx={{ width: 300 }}
       value={userGuess || null}
       onChange={(e, newGuess) => {
-          addGuess(newGuess)
+          addGuess(newGuess.Capital_city)
           // e.preventDefault()
         }}
       disabled={isGameWon || isEndGame}

@@ -2,11 +2,7 @@ import React, { useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import capitalsData from '../../data/capitals_data.json';
 
-import styles from './userGuess.module.css'
-
 const UserGuess = (props) => {
-
-  // const [populationRank, setPopulationRank] = useState(false)
 
   const calculatePopulation = (guess) => {
     const population = findPopulationByCity(guess)
@@ -20,6 +16,7 @@ const UserGuess = (props) => {
   };
 
   const correctPopulationRank = (guess) => {
+    console.log(guess, "<====== GUESS");
     const guessCityData = capitalsData.find(cityData => cityData.Capital_city === guess);
     if (guessCityData.Population_rank === props.currentAnswer.Population_rank) {
       console.log("TRUE");
