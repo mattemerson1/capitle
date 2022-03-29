@@ -1,0 +1,198 @@
+city,country,population,population_rank
+Tokyo,Japan,39105000,1
+Jakarta,Indonesia,35362000,1
+Manila,Philippines,23971000,1
+Seoul,South Korea,22394000,1
+Mexico City,Mexico,21505000,1
+Cairo,Egypt,19787000,1
+Beijing,China,19437000,1
+Moscow,Russia,17693000,1
+Bangkok,Thailand,17573000,1
+Dhaka,Bangladesh,16839000,1
+Buenos Aires,Argentina,16216000,1
+Kinshasa,Congo (Kinshasa),15056000,1
+Tehran,Iran,13819000,1
+London,United Kingdom,11120000,1
+Paris,France,11027000,1
+Lima,Peru,8992000,1
+Luanda,Angola,8883000,1
+Kuala Lumpur,Malaysia,8639000,1
+Hanoi,Vietnam,8246600,1
+Bogota,Colombia,7743955,1
+Hong Kong,Hong Kong,7398000,1
+Santiago,Chile,7026000,1
+Riyadh,Saudi Arabia,6889000,1
+Baghdad,Iraq,6107000,1
+Khartoum,Sudan,6017000,1
+Madrid,Spain,6006000,1
+Nairobi,Kenya,5545000,1
+Washington,United States,5379184,1
+Singapore,Singapore,5271000,1
+Kabul,Afghanistan,4273156,2
+Amman,Jordan,4007526,2
+Berlin,Germany,3664088,2
+Algiers,Algeria,3415811,2
+Addis Ababa,Ethiopia,3041002,2
+Brasilia,Brazil,3015268,2
+Kuwait City,Kuwait,2989000,2
+Kyiv,Ukraine,2963199,2
+Sanaa,Yemen,2957000,2
+Guatemala City,Guatemala,2934841,2
+Rome,Italy,2872800,2
+Pyongyang,North Korea,2863000,2
+Antananarivo,Madagascar,2610000,2
+Santo Domingo,Dominican Republic,2581827,2
+Tashkent,Uzbekistan,2497900,2
+Ouagadougou,Burkina Faso,2453496,2
+Yaounde,Cameroon,2440462,2
+Accra,Ghana,2291352,2
+Baku,Azerbaijan,2181800,2
+Harare,Zimbabwe,2150000,2
+Havana,Cuba,2141652,2
+Phnom Penh,Cambodia,2129371,2
+Mogadishu,Somalia,2120000,2
+Quito,Ecuador,2011388,2
+Minsk,Belarus,2009786,2
+Bamako,Mali,2009109,2
+Caracas,Venezuela,1943901,2
+Vienna,Austria,1911191,2
+Bucharest,Romania,1883425,2
+La Paz,Bolivia,1882000,2
+Brazzaville,Congo,1827000,2
+Warsaw,Poland,1790658,2
+Pristina,Kosovo,"1,770,000",2
+Damascus,Syria,1754000,2
+Brussels,Belgium,1743000,2
+Lusaka,Zambia,1742979,2
+Budapest,Hungary,1723836,2
+Conakry,Guinea,1667864,2
+Kampala,Uganda,1659600,2
+Abu Dhabi,United Arab Emirates,1483000,2
+Muscat,Oman,1421409,2
+Ulaanbaatar,Mongolia,1396288,2
+Belgrade,Serbia,1378682,2
+Prague,Czechia,1335084,2
+Montevideo,Uruguay,1319108,2
+Sofia,Bulgaria,1277411,2
+Abuja,Nigeria,1235880,2
+Maputo,Mozambique,1191613,2
+Doha,Qatar,1186023,2
+Kigali,Rwanda,1156663,2
+Dakar,Senegal,1146053,2
+Tegucigalpa,Honduras,1126534,2
+Tripoli,Libya,1126000,2
+Tbilisi,Georgia,1118035,2
+N'Djamena,Chad,1092066,2
+Copenhagen,Denmark,1085000,2
+Nur-Sultan,Kazakhstan,1078362,2
+Nouakchott,Mauritania,1077169,2
+Yerevan,Armenia,1075800,2
+Tunis,Tunisia,1056247,2
+Bishkek,Kyrgyzstan,1053900,2
+Managua,Nicaragua,1028808,2
+Niamey,Niger,1026848,2
+Monrovia,Liberia,1021762,2
+Islamabad,Pakistan,1014825,2
+Ottawa,Canada,989567,3
+Port-au-Prince,Haiti,987310,3
+Stockholm,Sweden,975819,3
+Kathmandu,Nepal,975453,3
+Asmara,Eritrea,963000,3
+Freetown,Sierra Leone,951000,3
+Vientiane,Laos,948487,3
+Jerusalem,Israel,919438,3
+Bangui,Central African Republic,889231,3
+Panama City,Panama,880691,3
+Amsterdam,Netherlands,862965,3
+Lome,Togo,837437,3
+Libreville,Gabon,797003,3
+Zagreb,Croatia,790017,3
+Lilongwe,Malawi,781538,3
+Dushanbe,Tajikistan,778500,3
+Pretoria,South Africa,741651,3
+Oslo,Norway,693494,3
+Athens,Greece,664046,3
+Helsinki,Finland,642045,3
+Skopje,Macedonia,640000,3
+Naypyidaw,Myanmar,640000,3
+Chisinau,Moldova,639000,3
+Riga,Latvia,614618,3
+Kingston,Jamaica,580000,3
+Vilnius,Lithuania,574147,3
+Rabat,Morocco,572717,3
+San Salvador,El Salvador,567698,3
+Djibouti,Djibouti,562000,3
+Dublin,Ireland,553165,3
+Asuncion,Paraguay,524190,3
+Lisbon,Portugal,506654,3
+Bratislava,Slovakia,475503,3
+Tallinn,Estonia,438341,3
+Wellington,New Zealand,418500,3
+Tirana,Albania,418495,3
+Dodoma,Tanzania,410956,3
+Bissau,Guinea-Bissau,395954,3
+Canberra,Australia,381488,3
+Juba,South Sudan,372410,3
+Beirut,Lebanon,361366,3
+Yamoussoukro,Côte d'Ivoire,355573,3
+Maseru,Lesotho,330790,3
+Nicosia,Cyprus,330000,3
+Windhoek,Namibia,322500,3
+Port Moresby,Papua New Guinea,317374,3
+Porto-Novo,Benin,300000,3
+San Jose,Costa Rica,288054,3
+Ljubljana,Slovenia,286745,3
+Sarajevo,Bosnia And Herzegovina,275524,3
+Nassau,The Bahamas,274400,3
+Yamoussoukro,Cote d'Ivoire,259373,3
+New Delhi,India,249998,3
+Gaborone,Botswana,231626,3
+Paramaribo,Suriname,223757,3
+Dili,Timor-Leste,222323,3
+Georgetown,Guyana,200500,3
+Malabo,Equatorial Guinea,187302,3
+Podgorica,Montenegro,174515,3
+Manama,Bahrain,157474,3
+Port Louis,Mauritius,149194,3
+Gitega,Burundi,135467,3
+Bern,Switzerland,133798,3
+Male,Maldives,133019,3
+Reykjavik,Iceland,128793,3
+Luxembourg,Luxembourg,128512,3
+Praia,Cabo Verde,127832,3
+Sri Jayawardenepura Kotte,Sri Lanka,115826,3
+Moroni,Comoros,111329,3
+Bridgetown,Barbados,110000,3
+Thimphu,Bhutan,104000,3
+Mbabane,Swaziland,94874,4
+Suva,Fiji,88271,4
+Honiara,Solomon Islands,84520,4
+Ankara,Turkey,77168,4
+Castries,Saint Lucia,70000,4
+Sao Tome,Sao Tome And Principe,56166,4
+Port-Vila,Vanuatu,51437,4
+Bandar Seri Begawan,Brunei,50000,4
+Apia,Samoa,37708,4
+Port of Spain,Trinidad And Tobago,37074,4
+Monaco,Monaco,36371,4
+Banjul,The Gambia,31356,4
+Majuro,Marshall Islands,30000,4
+Tarawa,Kiribati,28802,4
+Victoria,Seychelles,26450,4
+Kingstown,Saint Vincent And The Grenadines,25000,4
+Nuku`alofa,Tonga,23221,4
+Andorra la Vella,Andorra,22615,4
+Saint John's,Antigua And Barbuda,21926,4
+Ashgabat,Turkmenistan,19426,4
+Belmopan,Belize,17222,4
+Roseau,Dominica,16582,4
+Basseterre,Saint Kitts And Nevis,13220,4
+Yaren,Nauru,13000,4
+Valletta,Malta,6444,4
+Palikir,Federated States of Micronesia,6227,4
+Funafuti,Tuvalu,6025,4
+Vaduz,Liechtenstein,5668,4
+Saint George's,Grenada,4315,4
+San Marino,San Marino,4040,4
+Vatican City,Vatican City,825,4
+Ngerulmud,Palau,271,4

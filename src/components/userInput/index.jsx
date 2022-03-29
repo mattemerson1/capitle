@@ -13,10 +13,10 @@ const UserInput = (props) => {
     props.addGuess(userGuess);
     ref.current.focus();
     setUserGuess("");
-    if (props.guesses.length > 4) {
-      handleEndGame()
-    } else if (userGuess === props.currentAnswer.Capital_city) {
+    if (userGuess === props.currentAnswer.Capital_city) {
       handleWinGame()
+    } else if (props.guesses.length > 4) {
+      handleEndGame()
     }
   }
 

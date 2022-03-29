@@ -1,0 +1,32 @@
+[
+  {
+    "Capital_city": "London",
+    "Population": "8,961,989",
+    "Population_rank": "1"
+  },
+  {
+    "Capital_city": "Beijing",
+    "Population": "20,897,000",
+    "Population_rank": "1"
+  },
+  {
+    "Capital_city": "Mexico City",
+    "Population": "21,919,000",
+    "Population_rank": "1"
+  },
+  {
+    "Capital_city": "Canberra",
+    "Population": "462,000",
+    "Population_rank": "3"
+  },
+  {
+    "Capital_city": "Gitega",
+    "Population": "135,467",
+    "Population_rank": "3"
+  },
+  {
+    "Capital_city": "Tirana",
+    "Population": "421,000",
+    "Population_rank": "3"
+  }
+]
