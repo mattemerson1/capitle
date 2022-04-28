@@ -30,27 +30,27 @@ const UserInput = (props) => {
   }
 
   return (
-    <>
-    <Autocomplete
-      disablePortal
-      key={""}
-      id="combo-box-demo"
-      options={capitalsData}
-      getOptionLabel={city => city.Capital_city}
-      sx={{ width: 300 }}
-      value={userGuess || null}
-      onChange={(e, newGuess) => {
-          addGuess(newGuess.Capital_city)
-          // e.preventDefault()
-        }}
-      disabled={isGameWon || isEndGame}
-      renderInput={(params) => <TextField
-        {...params}
-        label="Enter capitial city:"
-      />}
-    />
-    <div tabIndex={0} ref={ref}/>
-    </>
+    <div style={{display: 'flex', justifyContent:'center', alignItems:'center', height: '20vh'}}>
+      <Autocomplete
+        disablePortal
+        key={""}
+        id="combo-box-demo"
+        options={capitalsData}
+        getOptionLabel={city => city.Capital_city}
+        sx={{ width: 300 }}
+        value={userGuess || null}
+        onChange={(e, newGuess) => {
+            addGuess(newGuess.Capital_city)
+            // e.preventDefault()
+          }}
+        disabled={isGameWon || isEndGame}
+        renderInput={(params) => <TextField
+          {...params}
+          label="Enter capitial city:"
+        />}
+      />
+    <div tabIndex={0} ref={ref} />
+    </div>
   );
 };
 

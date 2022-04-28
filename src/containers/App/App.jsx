@@ -1,5 +1,6 @@
 import UserInput from '../../components/userInput'
 import UserGuess from '../../components/userGuess'
+import UserGuessCard from '../../components/userGuessCard'
 import CorrectGuess from '../../components/correctGuess'
 import EndGame from '../../components/endGame'
 import { Helmet } from 'react-helmet';
@@ -51,8 +52,9 @@ const gameContainer = () => {
         <meta name="description" content="Capitals quiz" />
       </Helmet>
       <h1>Capitle</h1>
+      {/* <UserGuess guesses={guesses} currentAnswer={currentAnswer}/> */}
+      <UserGuessCard guesses={guesses} currentAnswer={currentAnswer}/>
       <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} currentAnswer={currentAnswer}/>
-      <UserGuess guesses={guesses} currentAnswer={currentAnswer}/>
       {correctGuess && <CorrectGuess guesses={guesses}/>}
       {isEndGame && <EndGame/>}
     </div>

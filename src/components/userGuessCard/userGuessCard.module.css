@@ -1,0 +1,22 @@
+.red {
+  background: red;
+
+
+}
+
+.green {
+  background: green;
+}
+
+.table-bordered {
+  border: 5px double orange;
+}
+
+.table-hover tbody tr:hover {
+  color: yellow !important;
+  background-color: brown;
+}
+
+.MuiGrid-container {
+  background-color: black;
+}
