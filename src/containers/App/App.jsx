@@ -1,8 +1,9 @@
-import UserInput from '../../components/userInput'
-import UserGuess from '../../components/userGuess'
-import UserGuessCard from '../../components/userGuessCard'
-import CorrectGuess from '../../components/correctGuess'
-import EndGame from '../../components/endGame'
+import UserInput from '../../components/userInput';
+import UserGuess from '../../components/userGuess';
+import UserGuessCard from '../../components/userGuessCard';
+import CorrectGuess from '../../components/correctGuess';
+import EndGame from '../../components/endGame';
+import AppBar from '../../components/appBar';
 import { Helmet } from 'react-helmet';
 import './App.css';
 import React, { useEffect, useState } from 'react';
@@ -26,7 +27,6 @@ const gameContainer = () => {
   },[])
   
   const addGuess = (guess) => {
-    // event.preventDefault();
     setGuesses([...guesses, guess])
     checkGuess(guess)
   };
@@ -51,7 +51,8 @@ const gameContainer = () => {
         <title itemProp="name" lang="en">Capitle: like globle but not quite</title>
         <meta name="description" content="Capitals quiz" />
       </Helmet>
-      <h1>Capitle</h1>
+      <AppBar/>
+      {/* <h1>Capitle</h1> */}
       {/* <UserGuess guesses={guesses} currentAnswer={currentAnswer}/> */}
       <UserGuessCard guesses={guesses} currentAnswer={currentAnswer}/>
       <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} currentAnswer={currentAnswer}/>
