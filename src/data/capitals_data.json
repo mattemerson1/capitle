@@ -1,543 +1,14 @@
 [
   {
-    "Capital_city": "Abu Dhabi",
-    "Country": "United Arab Emirates",
-    "Population": "1483000",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "818",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Abuja",
-    "Country": "Nigeria",
-    "Population": "1235880",
+    "Capital_city": "Mogadishu",
+    "Country": "Somalia",
+    "Population": "2120000",
     "Population_rank": "2",
     "Continent": "Africa",
-    "Area (sq mile)": "275",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Accra",
-    "Country": "Ghana",
-    "Population": "2291352",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "67",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Addis Ababa",
-    "Country": "Ethiopia",
-    "Population": "3041002",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "203",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Algiers",
-    "Country": "Algeria",
-    "Population": "3415811",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "140",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Amman",
-    "Country": "Jordan",
-    "Population": "4007526",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "650",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Amsterdam",
-    "Country": "Netherlands",
-    "Population": "862965",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "84.68",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Andorra la Vella",
-    "Country": "Andorra",
-    "Population": "22615",
-    "Population_rank": "4",
-    "Continent": "Europe",
-    "Area (sq mile)": "5",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Ankara",
-    "Country": "Turkey",
-    "Population": "77168",
-    "Population_rank": "4",
-    "Continent": "Asia",
-    "Area (sq mile)": "9,468",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Antananarivo",
-    "Country": "Madagascar",
-    "Population": "2610000",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "34",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Apia",
-    "Country": "Samoa",
-    "Population": "37708",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "47.8",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Ashgabat",
-    "Country": "Turkmenistan",
-    "Population": "19426",
-    "Population_rank": "4",
-    "Continent": "Asia",
-    "Area (sq mile)": "170",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Asmara",
-    "Country": "Eritrea",
-    "Population": "963000",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "17.37",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Asuncion",
-    "Country": "Paraguay",
-    "Population": "524190",
-    "Population_rank": "3",
-    "Continent": "South America",
-    "Area (sq mile)": "45.17",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Athens",
-    "Country": "Greece",
-    "Population": "664046",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "15.044",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Baghdad",
-    "Country": "Iraq",
-    "Population": "6107000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "260",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Baku",
-    "Country": "Azerbaijan",
-    "Population": "2181800",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "830",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Bamako",
-    "Country": "Mali",
-    "Population": "2009109",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "94.6",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Bandar Seri Begawan",
-    "Country": "Brunei",
-    "Population": "50000",
-    "Population_rank": "4",
-    "Continent": "Asia",
-    "Area (sq mile)": "38.75",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Bangkok",
-    "Country": "Thailand",
-    "Population": "17573000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "605.693",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Bangui",
-    "Country": "Central African Republic",
-    "Population": "889231",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "26",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Banjul",
-    "Country": "The Gambia",
-    "Population": "31356",
-    "Population_rank": "4",
-    "Continent": "Africa",
-    "Area (sq mile)": "5",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Basseterre",
-    "Country": "Saint Kitts And Nevis",
-    "Population": "13220",
-    "Population_rank": "4",
-    "Continent": "North America",
-    "Area (sq mile)": "2.35",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Beijing",
-    "Country": "China",
-    "Population": "19437000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "6,336",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Beirut",
-    "Country": "Lebanon",
-    "Population": "361366",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "7.6",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Belgrade",
-    "Country": "Serbia",
-    "Population": "1378682",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "139",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Belmopan",
-    "Country": "Belize",
-    "Population": "17222",
-    "Population_rank": "4",
-    "Continent": "North America",
-    "Area (sq mile)": "12.66",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Berlin",
-    "Country": "Germany",
-    "Population": "3664088",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "344.1",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Bern",
-    "Country": "Switzerland",
-    "Population": "133798",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "19.93",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Bishkek",
-    "Country": "Kyrgyzstan",
-    "Population": "1053900",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "65.6",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Bissau",
-    "Country": "Guinea-Bissau",
-    "Population": "395954",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "29.9",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Bogota",
-    "Country": "Colombia",
-    "Population": "7743955",
-    "Population_rank": "1",
-    "Continent": "South America",
-    "Area (sq mile)": "613",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Brasilia",
-    "Country": "Brazil",
-    "Population": "3015268",
-    "Population_rank": "2",
-    "Continent": "South America",
-    "Area (sq mile)": "2,240",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Bratislava",
-    "Country": "Slovakia",
-    "Population": "475503",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "141.925",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Brazzaville",
-    "Country": "Congo",
-    "Population": "1827000",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "101.9",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Bridgetown",
-    "Country": "Barbados",
-    "Population": "110000",
-    "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "15.444",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Brussels",
-    "Country": "Belgium",
-    "Population": "1743000",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "12.59",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Bucharest",
-    "Country": "Romania",
-    "Population": "1883425",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "88",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Budapest",
-    "Country": "Hungary",
-    "Population": "1723836",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "202.8",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Buenos Aires",
-    "Country": "Argentina",
-    "Population": "16216000",
-    "Population_rank": "1",
-    "Continent": "South America",
-    "Area (sq mile)": "78",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Cairo",
-    "Country": "Egypt",
-    "Population": "19787000",
-    "Population_rank": "1",
-    "Continent": "Africa",
-    "Area (sq mile)": "1,191.17",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Canberra",
-    "Country": "Australia",
-    "Population": "381488",
-    "Population_rank": "3",
-    "Continent": "Oceania",
-    "Area (sq mile)": "314.4",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Caracas",
-    "Country": "Venezuela",
-    "Population": "1943901",
-    "Population_rank": "2",
-    "Continent": "South America",
-    "Area (sq mile)": "167",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Castries",
-    "Country": "Saint Lucia",
-    "Population": "70000",
-    "Population_rank": "4",
-    "Continent": "North America",
-    "Area (sq mile)": "30.5",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Chisinau",
-    "Country": "Moldova",
-    "Population": "639000",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "47",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Conakry",
-    "Country": "Guinea",
-    "Population": "1667864",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "173",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Copenhagen",
-    "Country": "Denmark",
-    "Population": "1085000",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "69.4",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Dakar",
-    "Country": "Senegal",
-    "Population": "1146053",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "32",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Damascus",
-    "Country": "Syria",
-    "Population": "1754000",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "40.5",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Dhaka",
-    "Country": "Bangladesh",
-    "Population": "16839000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "118",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Dili",
-    "Country": "Timor-Leste",
-    "Population": "222323",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "18.64",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Djibouti",
-    "Country": "Djibouti",
-    "Population": "562000",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "10",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Dodoma",
-    "Country": "Tanzania",
-    "Population": "410956",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "995",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Doha",
-    "Country": "Qatar",
-    "Population": "1186023",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "51",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Dublin",
-    "Country": "Ireland",
-    "Population": "553165",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "44",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Dushanbe",
-    "Country": "Tajikistan",
-    "Population": "778500",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "48.1",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Freetown",
-    "Country": "Sierra Leone",
-    "Population": "951000",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "31.46",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Funafuti",
-    "Country": "Tuvalu",
-    "Population": "6025",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "0.9",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Gaborone",
-    "Country": "Botswana",
-    "Population": "231626",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "65",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Georgetown",
-    "Country": "Guyana",
-    "Population": "200500",
-    "Population_rank": "3",
-    "Continent": "South America",
-    "Area (sq mile)": "27.02",
-    "area_rank": "3"
+    "Area (sq mile)": "35",
+    "area_rank": "3",
+    "GDP per capita (USD)": "118",
+    "GDP_rank": "4"
   },
   {
     "Capital_city": "Gitega",
@@ -546,358 +17,9 @@
     "Population_rank": "3",
     "Continent": "Africa",
     "Area (sq mile)": "8.49",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Guatemala City",
-    "Country": "Guatemala",
-    "Population": "2934841",
-    "Population_rank": "2",
-    "Continent": "North America",
-    "Area (sq mile)": "84.92",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Hanoi",
-    "Country": "Vietnam",
-    "Population": "8246600",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "1,296.80",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Harare",
-    "Country": "Zimbabwe",
-    "Population": "2150000",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "370.9",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Havana",
-    "Country": "Cuba",
-    "Population": "2141652",
-    "Population_rank": "2",
-    "Continent": "North America",
-    "Area (sq mile)": "281.18",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Helsinki",
-    "Country": "Finland",
-    "Population": "642045",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "276.25",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Honiara",
-    "Country": "Solomon Islands",
-    "Population": "84520",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "8.49",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Islamabad",
-    "Country": "Pakistan",
-    "Population": "1014825",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "84.92",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Jakarta",
-    "Country": "Indonesia",
-    "Population": "35362000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "255.7",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Jerusalem",
-    "Country": "Israel",
-    "Population": "919438",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "48.323",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Juba",
-    "Country": "South Sudan",
-    "Population": "372410",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "20",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Kabul",
-    "Country": "Afghanistan",
-    "Population": "4273156",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "106",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Kampala",
-    "Country": "Uganda",
-    "Population": "1659600",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "73",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Kathmandu",
-    "Country": "Nepal",
-    "Population": "975453",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "19.09",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Khartoum",
-    "Country": "Sudan",
-    "Population": "6017000",
-    "Population_rank": "1",
-    "Continent": "Africa",
-    "Area (sq mile)": "8,549",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Kigali",
-    "Country": "Rwanda",
-    "Population": "1156663",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "281.8",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Kingston",
-    "Country": "Jamaica",
-    "Population": "580000",
-    "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "185",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Kingstown",
-    "Country": "Saint Vincent And The Grenadines",
-    "Population": "25000",
-    "Population_rank": "4",
-    "Continent": "North America",
-    "Area (sq mile)": "4",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Kinshasa",
-    "Country": "Congo (Kinshasa)",
-    "Population": "15056000",
-    "Population_rank": "1",
-    "Continent": "Africa",
-    "Area (sq mile)": "200",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Kuala Lumpur",
-    "Country": "Malaysia",
-    "Population": "8639000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "94",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Kuwait City",
-    "Country": "Kuwait",
-    "Population": "2989000",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "77.2",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Kyiv",
-    "Country": "Ukraine",
-    "Population": "2963199",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "324",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "La Paz",
-    "Country": "Bolivia",
-    "Population": "1882000",
-    "Population_rank": "2",
-    "Continent": "South America",
-    "Area (sq mile)": "182",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Libreville",
-    "Country": "Gabon",
-    "Population": "797003",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "25.26",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Lilongwe",
-    "Country": "Malawi",
-    "Population": "781538",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "281",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Lima",
-    "Country": "Peru",
-    "Population": "8992000",
-    "Population_rank": "1",
-    "Continent": "South America",
-    "Area (sq mile)": "300",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Lisbon",
-    "Country": "Portugal",
-    "Population": "506654",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "38.63",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Ljubljana",
-    "Country": "Slovenia",
-    "Population": "286745",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "63.2",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Lome",
-    "Country": "Togo",
-    "Population": "837437",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "38.28",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "London",
-    "Country": "United Kingdom",
-    "Population": "11120000",
-    "Population_rank": "1",
-    "Continent": "Europe",
-    "Area (sq mile)": "607",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Luanda",
-    "Country": "Angola",
-    "Population": "8883000",
-    "Population_rank": "1",
-    "Continent": "Africa",
-    "Area (sq mile)": "45",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Lusaka",
-    "Country": "Zambia",
-    "Population": "1742979",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "161",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Luxembourg",
-    "Country": "Luxembourg",
-    "Population": "128512",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "19.87",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Madrid",
-    "Country": "Spain",
-    "Population": "6006000",
-    "Population_rank": "1",
-    "Continent": "Europe",
-    "Area (sq mile)": "233.33",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Majuro",
-    "Country": "Marshall Islands",
-    "Population": "30000",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "3.7",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Malabo",
-    "Country": "Equatorial Guinea",
-    "Population": "187302",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "8.1",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Male",
-    "Country": "Maldives",
-    "Population": "133019",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "0.75",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Managua",
-    "Country": "Nicaragua",
-    "Population": "1028808",
-    "Population_rank": "2",
-    "Continent": "North America",
-    "Area (sq mile)": "103.15",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Manama",
-    "Country": "Bahrain",
-    "Population": "157474",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "11.58",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Manila",
-    "Country": "Philippines",
-    "Population": "23971000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "16.56",
-    "area_rank": "4"
+    "area_rank": "4",
+    "GDP per capita (USD)": "286",
+    "GDP_rank": "4"
   },
   {
     "Capital_city": "Maputo",
@@ -906,61 +28,42 @@
     "Population_rank": "2",
     "Continent": "Africa",
     "Area (sq mile)": "134.24",
-    "area_rank": "3"
+    "area_rank": "3",
+    "GDP per capita (USD)": "449",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Maseru",
-    "Country": "Lesotho",
-    "Population": "330790",
+    "Capital_city": "Antananarivo",
+    "Country": "Madagascar",
+    "Population": "2610000",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "34",
+    "area_rank": "3",
+    "GDP per capita (USD)": "470",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Freetown",
+    "Country": "Sierra Leone",
+    "Population": "951000",
     "Population_rank": "3",
     "Continent": "Africa",
-    "Area (sq mile)": "53",
-    "area_rank": "3"
+    "Area (sq mile)": "31.46",
+    "area_rank": "3",
+    "GDP per capita (USD)": "475",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Mbabane",
-    "Country": "Swaziland",
-    "Population": "94874",
-    "Population_rank": "4",
+    "Capital_city": "Bangui",
+    "Country": "Central African Republic",
+    "Population": "889231",
+    "Population_rank": "3",
     "Continent": "Africa",
-    "Area (sq mile)": "31.57",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Mexico City",
-    "Country": "Mexico",
-    "Population": "21505000",
-    "Population_rank": "1",
-    "Continent": "North America",
-    "Area (sq mile)": "573",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Minsk",
-    "Country": "Belarus",
-    "Population": "2009786",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "158.1",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Mogadishu",
-    "Country": "Somalia",
-    "Population": "2120000",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "35",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Monaco",
-    "Country": "Monaco",
-    "Population": "36371",
-    "Population_rank": "4",
-    "Continent": "Europe",
-    "Area (sq mile)": "0.81",
-    "area_rank": "4"
+    "Area (sq mile)": "26",
+    "area_rank": "3",
+    "GDP per capita (USD)": "481",
+    "GDP_rank": "4"
   },
   {
     "Capital_city": "Monrovia",
@@ -969,97 +72,31 @@
     "Population_rank": "2",
     "Continent": "Africa",
     "Area (sq mile)": "75",
-    "area_rank": "3"
+    "area_rank": "3",
+    "GDP per capita (USD)": "491",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Montevideo",
-    "Country": "Uruguay",
-    "Population": "1319108",
-    "Population_rank": "2",
-    "Continent": "South America",
-    "Area (sq mile)": "77.5",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Moroni",
-    "Country": "Comoros",
-    "Population": "111329",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "11.58",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Moscow",
-    "Country": "Russia",
-    "Population": "17693000",
-    "Population_rank": "1",
-    "Continent": "Europe",
-    "Area (sq mile)": "970",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Muscat",
-    "Country": "Oman",
-    "Population": "1421409",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "105.8",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "N'Djamena",
-    "Country": "Chad",
-    "Population": "1092066",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "40",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Nairobi",
-    "Country": "Kenya",
-    "Population": "5545000",
+    "Capital_city": "Kinshasa",
+    "Country": "Congo (Kinshasa)",
+    "Population": "15056000",
     "Population_rank": "1",
     "Continent": "Africa",
-    "Area (sq mile)": "269",
-    "area_rank": "2"
+    "Area (sq mile)": "200",
+    "area_rank": "2",
+    "GDP per capita (USD)": "506",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Nassau",
-    "Country": "The Bahamas",
-    "Population": "274400",
-    "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "80",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Naypyidaw",
-    "Country": "Myanmar",
-    "Population": "640000",
-    "Population_rank": "3",
+    "Capital_city": "Kabul",
+    "Country": "Afghanistan",
+    "Population": "4273156",
+    "Population_rank": "2",
     "Continent": "Asia",
-    "Area (sq mile)": "2,724",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "New Delhi",
-    "Country": "India",
-    "Population": "30291000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "16.5",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Ngerulmud",
-    "Country": "Palau",
-    "Population": "271",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "4",
-    "area_rank": "4"
+    "Area (sq mile)": "106",
+    "area_rank": "3",
+    "GDP per capita (USD)": "508",
+    "GDP_rank": "4"
   },
   {
     "Capital_city": "Niamey",
@@ -1068,214 +105,31 @@
     "Population_rank": "2",
     "Continent": "Africa",
     "Area (sq mile)": "92.39",
-    "area_rank": "3"
+    "area_rank": "3",
+    "GDP per capita (USD)": "568",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Nicosia",
-    "Country": "Cyprus",
-    "Population": "330000",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "19.71",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Nouakchott",
-    "Country": "Mauritania",
-    "Population": "1077169",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "400",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Nuku`alofa",
-    "Country": "Tonga",
-    "Population": "23221",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "4",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Nur-Sultan",
-    "Country": "Kazakhstan",
-    "Population": "1078362",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "312.8",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Oslo",
-    "Country": "Norway",
-    "Population": "693494",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "185.62",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Ottawa",
-    "Country": "Canada",
-    "Population": "989567",
-    "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "1,077.34",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Ouagadougou",
-    "Country": "Burkina Faso",
-    "Population": "2453496",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "1,083.02",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Palikir",
-    "Country": "Federated States of Micronesia",
-    "Population": "6227",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "41.47",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Panama City",
-    "Country": "Panama",
-    "Population": "880691",
-    "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "106",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Paramaribo",
-    "Country": "Suriname",
-    "Population": "223757",
-    "Population_rank": "3",
-    "Continent": "South America",
-    "Area (sq mile)": "70.27",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Paris",
-    "Country": "France",
-    "Population": "11027000",
-    "Population_rank": "1",
-    "Continent": "Europe",
-    "Area (sq mile)": "105.4",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Phnom Penh",
-    "Country": "Cambodia",
-    "Population": "2129371",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "262",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Podgorica",
-    "Country": "Montenegro",
-    "Population": "174515",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "42",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Port Louis",
-    "Country": "Mauritius",
-    "Population": "149194",
+    "Capital_city": "Asmara",
+    "Country": "Eritrea",
+    "Population": "963000",
     "Population_rank": "3",
     "Continent": "Africa",
-    "Area (sq mile)": "18",
-    "area_rank": "4"
+    "Area (sq mile)": "17.37",
+    "area_rank": "4",
+    "GDP per capita (USD)": "588",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Port Moresby",
-    "Country": "Papua New Guinea",
-    "Population": "317374",
-    "Population_rank": "3",
-    "Continent": "Oceania",
-    "Area (sq mile)": "92.66",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Port of Spain",
-    "Country": "Trinidad And Tobago",
-    "Population": "37074",
-    "Population_rank": "4",
-    "Continent": "South America",
-    "Area (sq mile)": "5",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Port-au-Prince",
-    "Country": "Haiti",
-    "Population": "987310",
-    "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "13.92",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Port-Vila",
-    "Country": "Vanuatu",
-    "Population": "51437",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "9.1",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Porto-Novo",
-    "Country": "Benin",
-    "Population": "300000",
+    "Capital_city": "Lilongwe",
+    "Country": "Malawi",
+    "Population": "781538",
     "Population_rank": "3",
     "Continent": "Africa",
-    "Area (sq mile)": "42.47",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Prague",
-    "Country": "Czechia",
-    "Population": "1335084",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "192",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Praia",
-    "Country": "Cabo Verde",
-    "Population": "127832",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "39.6",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Pretoria",
-    "Country": "South Africa",
-    "Population": "741651",
-    "Population_rank": "3",
-    "Continent": "Africa",
-    "Area (sq mile)": "265.46",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Pristina",
-    "Country": "Kosovo",
-    "Population": "1,770,000",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "221",
-    "area_rank": "2"
+    "Area (sq mile)": "281",
+    "area_rank": "2",
+    "GDP per capita (USD)": "615",
+    "GDP_rank": "4"
   },
   {
     "Capital_city": "Pyongyang",
@@ -1284,115 +138,130 @@
     "Population_rank": "2",
     "Continent": "Asia",
     "Area (sq mile)": "772.2",
-    "area_rank": "1"
+    "area_rank": "1",
+    "GDP per capita (USD)": "618",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Quito",
-    "Country": "Ecuador",
-    "Population": "2011388",
-    "Population_rank": "2",
-    "Continent": "South America",
-    "Area (sq mile)": "143.78",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Rabat",
-    "Country": "Morocco",
-    "Population": "572717",
+    "Capital_city": "Bissau",
+    "Country": "Guinea-Bissau",
+    "Population": "395954",
     "Population_rank": "3",
     "Continent": "Africa",
-    "Area (sq mile)": "45.17",
-    "area_rank": "3"
+    "Area (sq mile)": "29.9",
+    "area_rank": "3",
+    "GDP per capita (USD)": "668",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Reykjavik",
-    "Country": "Iceland",
-    "Population": "128793",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "105",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Riga",
-    "Country": "Latvia",
-    "Population": "614618",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "125",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Riyadh",
-    "Country": "Saudi Arabia",
-    "Population": "6889000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "739",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Rome",
-    "Country": "Italy",
-    "Population": "2872800",
+    "Capital_city": "N'Djamena",
+    "Country": "Chad",
+    "Population": "1092066",
     "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "500",
-    "area_rank": "1"
+    "Continent": "Africa",
+    "Area (sq mile)": "40",
+    "area_rank": "3",
+    "GDP per capita (USD)": "679",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Roseau",
-    "Country": "Dominica",
-    "Population": "16582",
+    "Capital_city": "Banjul",
+    "Country": "The Gambia",
+    "Population": "31356",
     "Population_rank": "4",
-    "Continent": "North America",
-    "Area (sq mile)": "4",
-    "area_rank": "4"
+    "Continent": "Africa",
+    "Area (sq mile)": "5",
+    "area_rank": "4",
+    "GDP per capita (USD)": "757",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Saint George's",
-    "Country": "Grenada",
-    "Population": "4315",
-    "Population_rank": "4",
-    "Continent": "North America",
-    "Area (sq mile)": "26",
-    "area_rank": "3"
+    "Capital_city": "Kigali",
+    "Country": "Rwanda",
+    "Population": "1156663",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "281.8",
+    "area_rank": "2",
+    "GDP per capita (USD)": "798",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Saint John's",
-    "Country": "Antigua And Barbuda",
-    "Population": "21926",
-    "Population_rank": "4",
-    "Continent": "North America",
-    "Area (sq mile)": "4",
-    "area_rank": "4"
+    "Capital_city": "Ouagadougou",
+    "Country": "Burkina Faso",
+    "Population": "2453496",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "1,083.02",
+    "area_rank": "1",
+    "GDP per capita (USD)": "831",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "San Jose",
-    "Country": "Costa Rica",
-    "Population": "288054",
+    "Capital_city": "Dushanbe",
+    "Country": "Tajikistan",
+    "Population": "778500",
     "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "17.23",
-    "area_rank": "4"
+    "Continent": "Asia",
+    "Area (sq mile)": "48.1",
+    "area_rank": "3",
+    "GDP per capita (USD)": "838",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "San Marino",
-    "Country": "San Marino",
-    "Population": "4040",
-    "Population_rank": "4",
-    "Continent": "Europe",
-    "Area (sq mile)": "2.74",
-    "area_rank": "4"
+    "Capital_city": "Addis Ababa",
+    "Country": "Ethiopia",
+    "Population": "3041002",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "203",
+    "area_rank": "2",
+    "GDP per capita (USD)": "840",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "San Salvador",
-    "Country": "El Salvador",
-    "Population": "567698",
+    "Capital_city": "Kampala",
+    "Country": "Uganda",
+    "Population": "1659600",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "73",
+    "area_rank": "3",
+    "GDP per capita (USD)": "846",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Bamako",
+    "Country": "Mali",
+    "Population": "2009109",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "94.6",
+    "area_rank": "3",
+    "GDP per capita (USD)": "856",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Lome",
+    "Country": "Togo",
+    "Population": "837437",
     "Population_rank": "3",
-    "Continent": "North America",
-    "Area (sq mile)": "27.9",
-    "area_rank": "3"
+    "Continent": "Africa",
+    "Area (sq mile)": "38.28",
+    "area_rank": "3",
+    "GDP per capita (USD)": "863",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Damascus",
+    "Country": "Syria",
+    "Population": "1754000",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "40.5",
+    "area_rank": "3",
+    "GDP per capita (USD)": "890",
+    "GDP_rank": "4"
   },
   {
     "Capital_city": "Sanaa",
@@ -1401,322 +270,185 @@
     "Population_rank": "2",
     "Continent": "Asia",
     "Area (sq mile)": "49",
-    "area_rank": "3"
+    "area_rank": "3",
+    "GDP per capita (USD)": "937",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Santiago",
-    "Country": "Chile",
-    "Population": "7026000",
-    "Population_rank": "1",
-    "Continent": "South America",
-    "Area (sq mile)": "247.6",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Santo Domingo",
-    "Country": "Dominican Republic",
-    "Population": "2581827",
+    "Capital_city": "Lusaka",
+    "Country": "Zambia",
+    "Population": "1742979",
     "Population_rank": "2",
-    "Continent": "North America",
-    "Area (sq mile)": "40.32",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Sao Tome",
-    "Country": "Sao Tome And Principe",
-    "Population": "56166",
-    "Population_rank": "4",
     "Continent": "Africa",
-    "Area (sq mile)": "6.56",
-    "area_rank": "4"
+    "Area (sq mile)": "161",
+    "area_rank": "2",
+    "GDP per capita (USD)": "985",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Sarajevo",
-    "Country": "Bosnia And Herzegovina",
-    "Population": "275524",
+    "Capital_city": "Maseru",
+    "Country": "Lesotho",
+    "Population": "330790",
     "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "54.6",
-    "area_rank": "3"
+    "Continent": "Africa",
+    "Area (sq mile)": "53",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,061",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Seoul",
-    "Country": "South Korea",
-    "Population": "22394000",
-    "Population_rank": "1",
+    "Capital_city": "Dodoma",
+    "Country": "Tanzania",
+    "Population": "410956",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "995",
+    "area_rank": "1",
+    "GDP per capita (USD)": "1,115",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Kathmandu",
+    "Country": "Nepal",
+    "Population": "975453",
+    "Population_rank": "3",
     "Continent": "Asia",
-    "Area (sq mile)": "233.67",
-    "area_rank": "2"
+    "Area (sq mile)": "19.09",
+    "area_rank": "4",
+    "GDP per capita (USD)": "1,135",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Singapore",
-    "Country": "Singapore",
-    "Population": "5271000",
-    "Population_rank": "1",
+    "Capital_city": "Islamabad",
+    "Country": "Pakistan",
+    "Population": "1014825",
+    "Population_rank": "2",
     "Continent": "Asia",
-    "Area (sq mile)": "280.2",
-    "area_rank": "2"
+    "Area (sq mile)": "84.92",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,167",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Skopje",
-    "Country": "Macedonia",
+    "Capital_city": "Conakry",
+    "Country": "Guinea",
+    "Population": "1667864",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "173",
+    "area_rank": "2",
+    "GDP per capita (USD)": "1,179",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Bishkek",
+    "Country": "Kyrgyzstan",
+    "Population": "1053900",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "65.6",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,186",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Porto-Novo",
+    "Country": "Benin",
+    "Population": "300000",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "42.47",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,254",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Naypyidaw",
+    "Country": "Myanmar",
     "Population": "640000",
     "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "130.43",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Sofia",
-    "Country": "Bulgaria",
-    "Population": "1277411",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "189",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Sri Jayawardenepura Kotte",
-    "Country": "Sri Lanka",
-    "Population": "115826",
-    "Population_rank": "3",
     "Continent": "Asia",
-    "Area (sq mile)": "6.56",
-    "area_rank": "4"
+    "Area (sq mile)": "2,724",
+    "area_rank": "1",
+    "GDP per capita (USD)": "1,292",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Stockholm",
-    "Country": "Sweden",
-    "Population": "975819",
+    "Capital_city": "Port-au-Prince",
+    "Country": "Haiti",
+    "Population": "987310",
     "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "72.5",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Suva",
-    "Country": "Fiji",
-    "Population": "88271",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "26.24",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Tallinn",
-    "Country": "Estonia",
-    "Population": "438341",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "61.5",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Tarawa",
-    "Country": "Kiribati",
-    "Population": "28802",
-    "Population_rank": "4",
-    "Continent": "Oceania",
-    "Area (sq mile)": "193.05",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Tashkent",
-    "Country": "Uzbekistan",
-    "Population": "2497900",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "129.3",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Tbilisi",
-    "Country": "Georgia",
-    "Population": "1118035",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "194.7",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Tegucigalpa",
-    "Country": "Honduras",
-    "Population": "1126534",
-    "Population_rank": "2",
     "Continent": "North America",
-    "Area (sq mile)": "580",
-    "area_rank": "1"
+    "Area (sq mile)": "13.92",
+    "area_rank": "4",
+    "GDP per capita (USD)": "1,360",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Tehran",
-    "Country": "Iran",
-    "Population": "13819000",
+    "Capital_city": "Khartoum",
+    "Country": "Sudan",
+    "Population": "6017000",
     "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "463.32",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Thimphu",
-    "Country": "Bhutan",
-    "Population": "104000",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "10.1",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Tirana",
-    "Country": "Albania",
-    "Population": "418495",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "16.1",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Tokyo",
-    "Country": "Japan",
-    "Population": "39105000",
-    "Population_rank": "1",
-    "Continent": "Asia",
-    "Area (sq mile)": "847.14",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Tripoli",
-    "Country": "Libya",
-    "Population": "1126000",
-    "Population_rank": "2",
     "Continent": "Africa",
-    "Area (sq mile)": "582",
-    "area_rank": "1"
+    "Area (sq mile)": "8,549",
+    "area_rank": "1",
+    "GDP per capita (USD)": "1,415",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Tunis",
-    "Country": "Tunisia",
-    "Population": "1056247",
-    "Population_rank": "2",
-    "Continent": "Africa",
-    "Area (sq mile)": "82.1",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Ulaanbaatar",
-    "Country": "Mongolia",
-    "Population": "1396288",
-    "Population_rank": "2",
-    "Continent": "Asia",
-    "Area (sq mile)": "1,816.30",
-    "area_rank": "1"
-  },
-  {
-    "Capital_city": "Vaduz",
-    "Country": "Liechtenstein",
-    "Population": "5668",
-    "Population_rank": "4",
-    "Continent": "Europe",
-    "Area (sq mile)": "6.7",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Valletta",
-    "Country": "Malta",
-    "Population": "6444",
-    "Population_rank": "4",
-    "Continent": "Europe",
-    "Area (sq mile)": "0.24",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Vatican City",
-    "Country": "Vatican City",
-    "Population": "825",
-    "Population_rank": "4",
-    "Continent": "Europe",
-    "Area (sq mile)": "0.17",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Victoria",
-    "Country": "Seychelles",
-    "Population": "26450",
-    "Population_rank": "4",
-    "Continent": "Africa",
-    "Area (sq mile)": "7.8",
-    "area_rank": "4"
-  },
-  {
-    "Capital_city": "Vienna",
-    "Country": "Austria",
-    "Population": "1911191",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "160.15",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Vientiane",
-    "Country": "Laos",
-    "Population": "948487",
-    "Population_rank": "3",
-    "Continent": "Asia",
-    "Area (sq mile)": "50",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Vilnius",
-    "Country": "Lithuania",
-    "Population": "574147",
-    "Population_rank": "3",
-    "Continent": "Europe",
-    "Area (sq mile)": "155",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Warsaw",
-    "Country": "Poland",
-    "Population": "1790658",
-    "Population_rank": "2",
-    "Continent": "Europe",
-    "Area (sq mile)": "199.71",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Washington",
-    "Country": "United States",
-    "Population": "5379184",
-    "Population_rank": "1",
-    "Continent": "North America",
-    "Area (sq mile)": "68.34",
-    "area_rank": "3"
-  },
-  {
-    "Capital_city": "Wellington",
-    "Country": "New Zealand",
-    "Population": "418500",
-    "Population_rank": "3",
-    "Continent": "Oceania",
-    "Area (sq mile)": "171",
-    "area_rank": "2"
-  },
-  {
-    "Capital_city": "Windhoek",
-    "Country": "Namibia",
-    "Population": "322500",
+    "Capital_city": "Moroni",
+    "Country": "Comoros",
+    "Population": "111329",
     "Population_rank": "3",
     "Continent": "Africa",
-    "Area (sq mile)": "1,982",
-    "area_rank": "1"
+    "Area (sq mile)": "11.58",
+    "area_rank": "4",
+    "GDP per capita (USD)": "1,421",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Yamoussoukro",
-    "Country": "Cote d'Ivoire",
-    "Population": "259373",
+    "Capital_city": "Juba",
+    "Country": "South Sudan",
+    "Population": "372410",
     "Population_rank": "3",
     "Continent": "Africa",
-    "Area (sq mile)": "1,350",
-    "area_rank": "1"
+    "Area (sq mile)": "20",
+    "area_rank": "4",
+    "GDP per capita (USD)": "1,421",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Dili",
+    "Country": "Timor-Leste",
+    "Population": "222323",
+    "Population_rank": "3",
+    "Continent": "Asia",
+    "Area (sq mile)": "18.64",
+    "area_rank": "4",
+    "GDP per capita (USD)": "1,443",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Dakar",
+    "Country": "Senegal",
+    "Population": "1146053",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "32",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,458",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Harare",
+    "Country": "Zimbabwe",
+    "Population": "2150000",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "370.9",
+    "area_rank": "2",
+    "GDP per capita (USD)": "1,466",
+    "GDP_rank": "4"
   },
   {
     "Capital_city": "Yaounde",
@@ -1725,16 +457,515 @@
     "Population_rank": "2",
     "Continent": "Africa",
     "Area (sq mile)": "70",
-    "area_rank": "3"
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,502",
+    "GDP_rank": "4"
   },
   {
-    "Capital_city": "Yaren",
-    "Country": "Nauru",
-    "Population": "13000",
+    "Capital_city": "Phnom Penh",
+    "Country": "Cambodia",
+    "Population": "2129371",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "262",
+    "area_rank": "2",
+    "GDP per capita (USD)": "1,513",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Tarawa",
+    "Country": "Kiribati",
+    "Population": "28802",
     "Population_rank": "4",
     "Continent": "Oceania",
-    "Area (sq mile)": "0.6",
-    "area_rank": "4"
+    "Area (sq mile)": "193.05",
+    "area_rank": "2",
+    "GDP per capita (USD)": "1,515",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Nouakchott",
+    "Country": "Mauritania",
+    "Population": "1077169",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "400",
+    "area_rank": "2",
+    "GDP per capita (USD)": "1,702",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Tashkent",
+    "Country": "Uzbekistan",
+    "Population": "2497900",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "129.3",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,724",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Brazzaville",
+    "Country": "Congo",
+    "Population": "1827000",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "101.9",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,830",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Nairobi",
+    "Country": "Kenya",
+    "Population": "5545000",
+    "Population_rank": "1",
+    "Continent": "Africa",
+    "Area (sq mile)": "269",
+    "area_rank": "2",
+    "GDP per capita (USD)": "1,879",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Luanda",
+    "Country": "Angola",
+    "Population": "8883000",
+    "Population_rank": "1",
+    "Continent": "Africa",
+    "Area (sq mile)": "45",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,896",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Managua",
+    "Country": "Nicaragua",
+    "Population": "1028808",
+    "Population_rank": "2",
+    "Continent": "North America",
+    "Area (sq mile)": "103.15",
+    "area_rank": "3",
+    "GDP per capita (USD)": "1,905",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "New Delhi",
+    "Country": "India",
+    "Population": "30291000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "16.5",
+    "area_rank": "4",
+    "GDP per capita (USD)": "1,931",
+    "GDP_rank": "4"
+  },
+  {
+    "Capital_city": "Dhaka",
+    "Country": "Bangladesh",
+    "Population": "16839000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "118",
+    "area_rank": "3",
+    "GDP per capita (USD)": "2,001",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Abuja",
+    "Country": "Nigeria",
+    "Population": "1235880",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "275",
+    "area_rank": "2",
+    "GDP per capita (USD)": "2,085",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Sao Tome",
+    "Country": "Sao Tome And Principe",
+    "Population": "56166",
+    "Population_rank": "4",
+    "Continent": "Africa",
+    "Area (sq mile)": "6.56",
+    "area_rank": "4",
+    "GDP per capita (USD)": "2,174",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Accra",
+    "Country": "Ghana",
+    "Population": "2291352",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "67",
+    "area_rank": "3",
+    "GDP per capita (USD)": "2,206",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Honiara",
+    "Country": "Solomon Islands",
+    "Population": "84520",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "8.49",
+    "area_rank": "4",
+    "GDP per capita (USD)": "2,251",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Yamoussoukro",
+    "Country": "Cote d'Ivoire",
+    "Population": "259373",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "1,350",
+    "area_rank": "1",
+    "GDP per capita (USD)": "2,318",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Tegucigalpa",
+    "Country": "Honduras",
+    "Population": "1126534",
+    "Population_rank": "2",
+    "Continent": "North America",
+    "Area (sq mile)": "580",
+    "area_rank": "1",
+    "GDP per capita (USD)": "2,406",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Vientiane",
+    "Country": "Laos",
+    "Population": "948487",
+    "Population_rank": "3",
+    "Continent": "Asia",
+    "Area (sq mile)": "50",
+    "area_rank": "3",
+    "GDP per capita (USD)": "2,623",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Port Moresby",
+    "Country": "Papua New Guinea",
+    "Population": "317374",
+    "Population_rank": "3",
+    "Continent": "Oceania",
+    "Area (sq mile)": "92.66",
+    "area_rank": "3",
+    "GDP per capita (USD)": "2,640",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Port-Vila",
+    "Country": "Vanuatu",
+    "Population": "51437",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "9.1",
+    "area_rank": "4",
+    "GDP per capita (USD)": "2,783",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Hanoi",
+    "Country": "Vietnam",
+    "Population": "8246600",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "1,296.80",
+    "area_rank": "1",
+    "GDP per capita (USD)": "2,786",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Chisinau",
+    "Country": "Moldova",
+    "Population": "639000",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "47",
+    "area_rank": "3",
+    "GDP per capita (USD)": "2,954",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Praia",
+    "Country": "Cabo Verde",
+    "Population": "127832",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "39.6",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,064",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Rabat",
+    "Country": "Morocco",
+    "Population": "572717",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "45.17",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,108",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "La Paz",
+    "Country": "Bolivia",
+    "Population": "1882000",
+    "Population_rank": "2",
+    "Continent": "South America",
+    "Area (sq mile)": "182",
+    "area_rank": "2",
+    "GDP per capita (USD)": "3,133",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Thimphu",
+    "Country": "Bhutan",
+    "Population": "104000",
+    "Population_rank": "3",
+    "Continent": "Asia",
+    "Area (sq mile)": "10.1",
+    "area_rank": "4",
+    "GDP per capita (USD)": "3,218",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Manila",
+    "Country": "Philippines",
+    "Population": "23971000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "16.56",
+    "area_rank": "4",
+    "GDP per capita (USD)": "3,299",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Mbabane",
+    "Country": "Swaziland",
+    "Population": "94874",
+    "Population_rank": "4",
+    "Continent": "Africa",
+    "Area (sq mile)": "31.57",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,306",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Tunis",
+    "Country": "Tunisia",
+    "Population": "1056247",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "82.1",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,318",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Algiers",
+    "Country": "Algeria",
+    "Population": "3415811",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "140",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,368",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Djibouti",
+    "Country": "Djibouti",
+    "Population": "562000",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "10",
+    "area_rank": "4",
+    "GDP per capita (USD)": "3,465",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Palikir",
+    "Country": "Federated States of Micronesia",
+    "Population": "6227",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "41.47",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,500",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Kyiv",
+    "Country": "Ukraine",
+    "Population": "2963199",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "324",
+    "area_rank": "2",
+    "GDP per capita (USD)": "3,557",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Cairo",
+    "Country": "Egypt",
+    "Population": "19787000",
+    "Population_rank": "1",
+    "Continent": "Africa",
+    "Area (sq mile)": "1,191.17",
+    "area_rank": "1",
+    "GDP per capita (USD)": "3,609",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Caracas",
+    "Country": "Venezuela",
+    "Population": "1943901",
+    "Population_rank": "2",
+    "Continent": "South America",
+    "Area (sq mile)": "167",
+    "area_rank": "2",
+    "GDP per capita (USD)": "3,740",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Sri Jayawardenepura Kotte",
+    "Country": "Sri Lanka",
+    "Population": "115826",
+    "Population_rank": "3",
+    "Continent": "Asia",
+    "Area (sq mile)": "6.56",
+    "area_rank": "4",
+    "GDP per capita (USD)": "3,768",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "San Salvador",
+    "Country": "El Salvador",
+    "Population": "567698",
+    "Population_rank": "3",
+    "Continent": "North America",
+    "Area (sq mile)": "27.9",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,799",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Jakarta",
+    "Country": "Indonesia",
+    "Population": "35362000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "255.7",
+    "area_rank": "2",
+    "GDP per capita (USD)": "3,870",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Apia",
+    "Country": "Samoa",
+    "Population": "37708",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "47.8",
+    "area_rank": "3",
+    "GDP per capita (USD)": "3,890",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Tbilisi",
+    "Country": "Georgia",
+    "Population": "1118035",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "194.7",
+    "area_rank": "2",
+    "GDP per capita (USD)": "3,984",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Belmopan",
+    "Country": "Belize",
+    "Population": "17222",
+    "Population_rank": "4",
+    "Continent": "North America",
+    "Area (sq mile)": "12.66",
+    "area_rank": "4",
+    "GDP per capita (USD)": "3,988",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Ulaanbaatar",
+    "Country": "Mongolia",
+    "Population": "1396288",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "1,816.30",
+    "area_rank": "1",
+    "GDP per capita (USD)": "4,007",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Majuro",
+    "Country": "Marshall Islands",
+    "Population": "30000",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "3.7",
+    "area_rank": "4",
+    "GDP per capita (USD)": "4,130",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Baghdad",
+    "Country": "Iraq",
+    "Population": "6107000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "260",
+    "area_rank": "2",
+    "GDP per capita (USD)": "4,146",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Baku",
+    "Country": "Azerbaijan",
+    "Population": "2181800",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "830",
+    "area_rank": "1",
+    "GDP per capita (USD)": "4,202",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Windhoek",
+    "Country": "Namibia",
+    "Population": "322500",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "1,982",
+    "area_rank": "1",
+    "GDP per capita (USD)": "4,215",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Tripoli",
+    "Country": "Libya",
+    "Population": "1126000",
+    "Population_rank": "2",
+    "Continent": "Africa",
+    "Area (sq mile)": "582",
+    "area_rank": "1",
+    "GDP per capita (USD)": "4,243",
+    "GDP_rank": "3"
   },
   {
     "Capital_city": "Yerevan",
@@ -1743,7 +974,570 @@
     "Population_rank": "2",
     "Continent": "Europe",
     "Area (sq mile)": "86",
-    "area_rank": "3"
+    "area_rank": "3",
+    "GDP per capita (USD)": "4,266",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Amman",
+    "Country": "Jordan",
+    "Population": "4007526",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "650",
+    "area_rank": "1",
+    "GDP per capita (USD)": "4,283",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Guatemala City",
+    "Country": "Guatemala",
+    "Population": "2934841",
+    "Population_rank": "2",
+    "Continent": "North America",
+    "Area (sq mile)": "84.92",
+    "area_rank": "3",
+    "GDP per capita (USD)": "4,332",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Pristina",
+    "Country": "Kosovo",
+    "Population": "1,770,000",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "221",
+    "area_rank": "2",
+    "GDP per capita (USD)": "4,368",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Nuku`alofa",
+    "Country": "Tonga",
+    "Population": "23221",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "4",
+    "area_rank": "4",
+    "GDP per capita (USD)": "4,646",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Funafuti",
+    "Country": "Tuvalu",
+    "Population": "6025",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "0.9",
+    "area_rank": "4",
+    "GDP per capita (USD)": "4,648",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Kingston",
+    "Country": "Jamaica",
+    "Population": "580000",
+    "Population_rank": "3",
+    "Continent": "North America",
+    "Area (sq mile)": "185",
+    "area_rank": "2",
+    "GDP per capita (USD)": "4,665",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Asuncion",
+    "Country": "Paraguay",
+    "Population": "524190",
+    "Population_rank": "3",
+    "Continent": "South America",
+    "Area (sq mile)": "45.17",
+    "area_rank": "3",
+    "GDP per capita (USD)": "4,950",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Suva",
+    "Country": "Fiji",
+    "Population": "88271",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "26.24",
+    "area_rank": "3",
+    "GDP per capita (USD)": "5,013",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Pretoria",
+    "Country": "South Africa",
+    "Population": "741651",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "265.46",
+    "area_rank": "2",
+    "GDP per capita (USD)": "5,094",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Tirana",
+    "Country": "Albania",
+    "Population": "418495",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "16.1",
+    "area_rank": "4",
+    "GDP per capita (USD)": "5,181",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Bogota",
+    "Country": "Colombia",
+    "Population": "7743955",
+    "Population_rank": "1",
+    "Continent": "South America",
+    "Area (sq mile)": "613",
+    "area_rank": "1",
+    "GDP per capita (USD)": "5,333",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Quito",
+    "Country": "Ecuador",
+    "Population": "2011388",
+    "Population_rank": "2",
+    "Continent": "South America",
+    "Area (sq mile)": "143.78",
+    "area_rank": "3",
+    "GDP per capita (USD)": "5,600",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Skopje",
+    "Country": "Macedonia",
+    "Population": "640000",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "130.43",
+    "area_rank": "3",
+    "GDP per capita (USD)": "5,886",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Sarajevo",
+    "Country": "Bosnia And Herzegovina",
+    "Population": "275524",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "54.6",
+    "area_rank": "3",
+    "GDP per capita (USD)": "6,035",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Lima",
+    "Country": "Peru",
+    "Population": "8992000",
+    "Population_rank": "1",
+    "Continent": "South America",
+    "Area (sq mile)": "300",
+    "area_rank": "2",
+    "GDP per capita (USD)": "6,163",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Minsk",
+    "Country": "Belarus",
+    "Population": "2009786",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "158.1",
+    "area_rank": "2",
+    "GDP per capita (USD)": "6,377",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Gaborone",
+    "Country": "Botswana",
+    "Population": "231626",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "65",
+    "area_rank": "3",
+    "GDP per capita (USD)": "6,711",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Libreville",
+    "Country": "Gabon",
+    "Population": "797003",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "25.26",
+    "area_rank": "3",
+    "GDP per capita (USD)": "6,789",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Brasilia",
+    "Country": "Brazil",
+    "Population": "3015268",
+    "Population_rank": "2",
+    "Continent": "South America",
+    "Area (sq mile)": "2,240",
+    "area_rank": "1",
+    "GDP per capita (USD)": "6,797",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Male",
+    "Country": "Maldives",
+    "Population": "133019",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "0.75",
+    "area_rank": "4",
+    "GDP per capita (USD)": "6,924",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Georgetown",
+    "Country": "Guyana",
+    "Population": "200500",
+    "Population_rank": "3",
+    "Continent": "South America",
+    "Area (sq mile)": "27.02",
+    "area_rank": "3",
+    "GDP per capita (USD)": "6,956",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Paramaribo",
+    "Country": "Suriname",
+    "Population": "223757",
+    "Population_rank": "3",
+    "Continent": "South America",
+    "Area (sq mile)": "70.27",
+    "area_rank": "3",
+    "GDP per capita (USD)": "7,023",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Roseau",
+    "Country": "Dominica",
+    "Population": "16582",
+    "Population_rank": "4",
+    "Continent": "North America",
+    "Area (sq mile)": "4",
+    "area_rank": "4",
+    "GDP per capita (USD)": "7,038",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Ashgabat",
+    "Country": "Turkmenistan",
+    "Population": "19426",
+    "Population_rank": "4",
+    "Continent": "Asia",
+    "Area (sq mile)": "170",
+    "area_rank": "2",
+    "GDP per capita (USD)": "7,104",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Malabo",
+    "Country": "Equatorial Guinea",
+    "Population": "187302",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "8.1",
+    "area_rank": "4",
+    "GDP per capita (USD)": "7,143",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Bangkok",
+    "Country": "Thailand",
+    "Population": "17573000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "605.693",
+    "area_rank": "1",
+    "GDP per capita (USD)": "7,189",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Santo Domingo",
+    "Country": "Dominican Republic",
+    "Population": "2581827",
+    "Population_rank": "2",
+    "Continent": "North America",
+    "Area (sq mile)": "40.32",
+    "area_rank": "3",
+    "GDP per capita (USD)": "7,268",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Kingstown",
+    "Country": "Saint Vincent And The Grenadines",
+    "Population": "25000",
+    "Population_rank": "4",
+    "Continent": "North America",
+    "Area (sq mile)": "4",
+    "area_rank": "4",
+    "GDP per capita (USD)": "7,298",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Podgorica",
+    "Country": "Montenegro",
+    "Population": "174515",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "42",
+    "area_rank": "3",
+    "GDP per capita (USD)": "7,626",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Belgrade",
+    "Country": "Serbia",
+    "Population": "1378682",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "139",
+    "area_rank": "3",
+    "GDP per capita (USD)": "7,656",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Mexico City",
+    "Country": "Mexico",
+    "Population": "21505000",
+    "Population_rank": "1",
+    "Continent": "North America",
+    "Area (sq mile)": "573",
+    "area_rank": "1",
+    "GDP per capita (USD)": "8,326",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Buenos Aires",
+    "Country": "Argentina",
+    "Population": "16216000",
+    "Population_rank": "1",
+    "Continent": "South America",
+    "Area (sq mile)": "78",
+    "area_rank": "3",
+    "GDP per capita (USD)": "8,476",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Ankara",
+    "Country": "Turkey",
+    "Population": "77168",
+    "Population_rank": "4",
+    "Continent": "Asia",
+    "Area (sq mile)": "9,468",
+    "area_rank": "1",
+    "GDP per capita (USD)": "8,538",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Port Louis",
+    "Country": "Mauritius",
+    "Population": "149194",
+    "Population_rank": "3",
+    "Continent": "Africa",
+    "Area (sq mile)": "18",
+    "area_rank": "4",
+    "GDP per capita (USD)": "8,587",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Castries",
+    "Country": "Saint Lucia",
+    "Population": "70000",
+    "Population_rank": "4",
+    "Continent": "North America",
+    "Area (sq mile)": "30.5",
+    "area_rank": "3",
+    "GDP per capita (USD)": "8,805",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Nur-Sultan",
+    "Country": "Kazakhstan",
+    "Population": "1078362",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "312.8",
+    "area_rank": "2",
+    "GDP per capita (USD)": "9,111",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Saint George's",
+    "Country": "Grenada",
+    "Population": "4315",
+    "Population_rank": "4",
+    "Continent": "North America",
+    "Area (sq mile)": "26",
+    "area_rank": "3",
+    "GDP per capita (USD)": "9,273",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Beirut",
+    "Country": "Lebanon",
+    "Population": "361366",
+    "Population_rank": "3",
+    "Continent": "Asia",
+    "Area (sq mile)": "7.6",
+    "area_rank": "4",
+    "GDP per capita (USD)": "9,310",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Havana",
+    "Country": "Cuba",
+    "Population": "2141652",
+    "Population_rank": "2",
+    "Continent": "North America",
+    "Area (sq mile)": "281.18",
+    "area_rank": "2",
+    "GDP per capita (USD)": "9,478",
+    "GDP_rank": "3"
+  },
+  {
+    "Capital_city": "Sofia",
+    "Country": "Bulgaria",
+    "Population": "1277411",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "189",
+    "area_rank": "2",
+    "GDP per capita (USD)": "10,058",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Moscow",
+    "Country": "Russia",
+    "Population": "17693000",
+    "Population_rank": "1",
+    "Continent": "Europe",
+    "Area (sq mile)": "970",
+    "area_rank": "1",
+    "GDP per capita (USD)": "10,166",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Beijing",
+    "Country": "China",
+    "Population": "19437000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "6,336",
+    "area_rank": "1",
+    "GDP per capita (USD)": "10,229",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Kuala Lumpur",
+    "Country": "Malaysia",
+    "Population": "8639000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "94",
+    "area_rank": "3",
+    "GDP per capita (USD)": "10,402",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Victoria",
+    "Country": "Seychelles",
+    "Population": "26450",
+    "Population_rank": "4",
+    "Continent": "Africa",
+    "Area (sq mile)": "7.8",
+    "area_rank": "4",
+    "GDP per capita (USD)": "10,767",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Tehran",
+    "Country": "Iran",
+    "Population": "13819000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "463.32",
+    "area_rank": "2",
+    "GDP per capita (USD)": "11,183",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "San Jose",
+    "Country": "Costa Rica",
+    "Population": "288054",
+    "Population_rank": "3",
+    "Continent": "North America",
+    "Area (sq mile)": "17.23",
+    "area_rank": "4",
+    "GDP per capita (USD)": "12,077",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Panama City",
+    "Country": "Panama",
+    "Population": "880691",
+    "Population_rank": "3",
+    "Continent": "North America",
+    "Area (sq mile)": "106",
+    "area_rank": "3",
+    "GDP per capita (USD)": "12,269",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Muscat",
+    "Country": "Oman",
+    "Population": "1421409",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "105.8",
+    "area_rank": "3",
+    "GDP per capita (USD)": "12,409",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Yaren",
+    "Country": "Nauru",
+    "Population": "13000",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "0.6",
+    "area_rank": "4",
+    "GDP per capita (USD)": "12,510",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Bucharest",
+    "Country": "Romania",
+    "Population": "1883425",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "88",
+    "area_rank": "3",
+    "GDP per capita (USD)": "12,929",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Santiago",
+    "Country": "Chile",
+    "Population": "7026000",
+    "Population_rank": "1",
+    "Continent": "South America",
+    "Area (sq mile)": "247.6",
+    "area_rank": "2",
+    "GDP per capita (USD)": "13,232",
+    "GDP_rank": "2"
   },
   {
     "Capital_city": "Zagreb",
@@ -1752,6 +1546,602 @@
     "Population_rank": "3",
     "Continent": "Europe",
     "Area (sq mile)": "247.6",
-    "area_rank": "2"
+    "area_rank": "2",
+    "GDP per capita (USD)": "13,934",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Saint John's",
+    "Country": "Antigua And Barbuda",
+    "Population": "21926",
+    "Population_rank": "4",
+    "Continent": "North America",
+    "Area (sq mile)": "4",
+    "area_rank": "4",
+    "GDP per capita (USD)": "13,993",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Ngerulmud",
+    "Country": "Palau",
+    "Population": "271",
+    "Population_rank": "4",
+    "Continent": "Oceania",
+    "Area (sq mile)": "4",
+    "area_rank": "4",
+    "GDP per capita (USD)": "14,567",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Port of Spain",
+    "Country": "Trinidad And Tobago",
+    "Population": "37074",
+    "Population_rank": "4",
+    "Continent": "South America",
+    "Area (sq mile)": "5",
+    "area_rank": "4",
+    "GDP per capita (USD)": "15,286",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Montevideo",
+    "Country": "Uruguay",
+    "Population": "1319108",
+    "Population_rank": "2",
+    "Continent": "South America",
+    "Area (sq mile)": "77.5",
+    "area_rank": "3",
+    "GDP per capita (USD)": "15,438",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Bridgetown",
+    "Country": "Barbados",
+    "Population": "110000",
+    "Population_rank": "3",
+    "Continent": "North America",
+    "Area (sq mile)": "15.444",
+    "area_rank": "4",
+    "GDP per capita (USD)": "15,449",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Warsaw",
+    "Country": "Poland",
+    "Population": "1790658",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "199.71",
+    "area_rank": "2",
+    "GDP per capita (USD)": "15,764",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Budapest",
+    "Country": "Hungary",
+    "Population": "1723836",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "202.8",
+    "area_rank": "2",
+    "GDP per capita (USD)": "16,129",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Basseterre",
+    "Country": "Saint Kitts And Nevis",
+    "Population": "13220",
+    "Population_rank": "4",
+    "Continent": "North America",
+    "Area (sq mile)": "2.35",
+    "area_rank": "4",
+    "GDP per capita (USD)": "17,434",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Riga",
+    "Country": "Latvia",
+    "Population": "614618",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "125",
+    "area_rank": "3",
+    "GDP per capita (USD)": "17,871",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Athens",
+    "Country": "Greece",
+    "Population": "664046",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "15.044",
+    "area_rank": "4",
+    "GDP per capita (USD)": "18,117",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Bratislava",
+    "Country": "Slovakia",
+    "Population": "475503",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "141.925",
+    "area_rank": "3",
+    "GDP per capita (USD)": "19,264",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Manama",
+    "Country": "Bahrain",
+    "Population": "157474",
+    "Population_rank": "3",
+    "Continent": "Asia",
+    "Area (sq mile)": "11.58",
+    "area_rank": "4",
+    "GDP per capita (USD)": "19,925",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Riyadh",
+    "Country": "Saudi Arabia",
+    "Population": "6889000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "739",
+    "area_rank": "1",
+    "GDP per capita (USD)": "20,110",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Vilnius",
+    "Country": "Lithuania",
+    "Population": "574147",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "155",
+    "area_rank": "2",
+    "GDP per capita (USD)": "20,772",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Vatican City",
+    "Country": "Vatican City",
+    "Population": "825",
+    "Population_rank": "4",
+    "Continent": "Europe",
+    "Area (sq mile)": "0.17",
+    "area_rank": "4",
+    "GDP per capita (USD)": "21,198",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Lisbon",
+    "Country": "Portugal",
+    "Population": "506654",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "38.63",
+    "area_rank": "3",
+    "GDP per capita (USD)": "22,413",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Prague",
+    "Country": "Czechia",
+    "Population": "1335084",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "192",
+    "area_rank": "2",
+    "GDP per capita (USD)": "22,911",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Tallinn",
+    "Country": "Estonia",
+    "Population": "438341",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "61.5",
+    "area_rank": "3",
+    "GDP per capita (USD)": "23,106",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Kuwait City",
+    "Country": "Kuwait",
+    "Population": "2989000",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "77.2",
+    "area_rank": "3",
+    "GDP per capita (USD)": "24,809",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Nassau",
+    "Country": "Bahamas",
+    "Population": "274400",
+    "Population_rank": "3",
+    "Continent": "North America",
+    "Area (sq mile)": "80",
+    "area_rank": "3",
+    "GDP per capita (USD)": "25,194",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Ljubljana",
+    "Country": "Slovenia",
+    "Population": "286745",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "63.2",
+    "area_rank": "3",
+    "GDP per capita (USD)": "25,777",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Madrid",
+    "Country": "Spain",
+    "Population": "6006000",
+    "Population_rank": "1",
+    "Continent": "Europe",
+    "Area (sq mile)": "233.33",
+    "area_rank": "2",
+    "GDP per capita (USD)": "27,409",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Bandar Seri Begawan",
+    "Country": "Brunei",
+    "Population": "50000",
+    "Population_rank": "4",
+    "Continent": "Asia",
+    "Area (sq mile)": "38.75",
+    "area_rank": "3",
+    "GDP per capita (USD)": "27,437",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Nicosia",
+    "Country": "Cyprus",
+    "Population": "330000",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "19.71",
+    "area_rank": "4",
+    "GDP per capita (USD)": "28,133",
+    "GDP_rank": "2"
+  },
+  {
+    "Capital_city": "Rome",
+    "Country": "Italy",
+    "Population": "2872800",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "500",
+    "area_rank": "1",
+    "GDP per capita (USD)": "31,238",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Seoul",
+    "Country": "South Korea",
+    "Population": "22394000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "233.67",
+    "area_rank": "2",
+    "GDP per capita (USD)": "31,947",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Valletta",
+    "Country": "Malta",
+    "Population": "6444",
+    "Population_rank": "4",
+    "Continent": "Europe",
+    "Area (sq mile)": "0.24",
+    "area_rank": "4",
+    "GDP per capita (USD)": "33,771",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Abu Dhabi",
+    "Country": "United Arab Emirates",
+    "Population": "1483000",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "818",
+    "area_rank": "1",
+    "GDP per capita (USD)": "36,285",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Andorra la Vella",
+    "Country": "Andorra",
+    "Population": "22615",
+    "Population_rank": "4",
+    "Continent": "Europe",
+    "Area (sq mile)": "5",
+    "area_rank": "4",
+    "GDP per capita (USD)": "37,072",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Paris",
+    "Country": "France",
+    "Population": "11027000",
+    "Population_rank": "1",
+    "Continent": "Europe",
+    "Area (sq mile)": "105.4",
+    "area_rank": "3",
+    "GDP per capita (USD)": "38,959",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Tokyo",
+    "Country": "Japan",
+    "Population": "39105000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "847.14",
+    "area_rank": "1",
+    "GDP per capita (USD)": "39,990",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "London",
+    "Country": "United Kingdom",
+    "Population": "11120000",
+    "Population_rank": "1",
+    "Continent": "Europe",
+    "Area (sq mile)": "607",
+    "area_rank": "1",
+    "GDP per capita (USD)": "40,718",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Ottawa",
+    "Country": "Canada",
+    "Population": "989567",
+    "Population_rank": "3",
+    "Continent": "North America",
+    "Area (sq mile)": "1,077.34",
+    "area_rank": "1",
+    "GDP per capita (USD)": "43,560",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Wellington",
+    "Country": "New Zealand",
+    "Population": "418500",
+    "Population_rank": "3",
+    "Continent": "Oceania",
+    "Area (sq mile)": "171",
+    "area_rank": "2",
+    "GDP per capita (USD)": "43,972",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Brussels",
+    "Country": "Belgium",
+    "Population": "1743000",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "12.59",
+    "area_rank": "4",
+    "GDP per capita (USD)": "45,028",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "San Marino",
+    "Country": "San Marino",
+    "Population": "4040",
+    "Population_rank": "4",
+    "Continent": "Europe",
+    "Area (sq mile)": "2.74",
+    "area_rank": "4",
+    "GDP per capita (USD)": "45,832",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Berlin",
+    "Country": "Germany",
+    "Population": "3664088",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "344.1",
+    "area_rank": "2",
+    "GDP per capita (USD)": "45,909",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Jerusalem",
+    "Country": "Israel",
+    "Population": "919438",
+    "Population_rank": "3",
+    "Continent": "Asia",
+    "Area (sq mile)": "48.323",
+    "area_rank": "3",
+    "GDP per capita (USD)": "47,034",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Vienna",
+    "Country": "Austria",
+    "Population": "1911191",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "160.15",
+    "area_rank": "2",
+    "GDP per capita (USD)": "48,106",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Helsinki",
+    "Country": "Finland",
+    "Population": "642045",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "276.25",
+    "area_rank": "2",
+    "GDP per capita (USD)": "48,685",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Doha",
+    "Country": "Qatar",
+    "Population": "1186023",
+    "Population_rank": "2",
+    "Continent": "Asia",
+    "Area (sq mile)": "51",
+    "area_rank": "3",
+    "GDP per capita (USD)": "50,815",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Amsterdam",
+    "Country": "Netherlands",
+    "Population": "862965",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "84.68",
+    "area_rank": "3",
+    "GDP per capita (USD)": "53,334",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Stockholm",
+    "Country": "Sweden",
+    "Population": "975819",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "72.5",
+    "area_rank": "3",
+    "GDP per capita (USD)": "53,575",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Canberra",
+    "Country": "Australia",
+    "Population": "381488",
+    "Population_rank": "3",
+    "Continent": "Oceania",
+    "Area (sq mile)": "314.4",
+    "area_rank": "2",
+    "GDP per capita (USD)": "55,823",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Singapore",
+    "Country": "Singapore",
+    "Population": "5271000",
+    "Population_rank": "1",
+    "Continent": "Asia",
+    "Area (sq mile)": "280.2",
+    "area_rank": "2",
+    "GDP per capita (USD)": "58,114",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Copenhagen",
+    "Country": "Denmark",
+    "Population": "1085000",
+    "Population_rank": "2",
+    "Continent": "Europe",
+    "Area (sq mile)": "69.4",
+    "area_rank": "3",
+    "GDP per capita (USD)": "61,477",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Washington",
+    "Country": "United States",
+    "Population": "5379184",
+    "Population_rank": "1",
+    "Continent": "North America",
+    "Area (sq mile)": "68.34",
+    "area_rank": "3",
+    "GDP per capita (USD)": "63,123",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Reykjavik",
+    "Country": "Iceland",
+    "Population": "128793",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "105",
+    "area_rank": "3",
+    "GDP per capita (USD)": "63,644",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Oslo",
+    "Country": "Norway",
+    "Population": "693494",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "185.62",
+    "area_rank": "2",
+    "GDP per capita (USD)": "66,871",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Dublin",
+    "Country": "Ireland",
+    "Population": "553165",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "44",
+    "area_rank": "3",
+    "GDP per capita (USD)": "86,251",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Bern",
+    "Country": "Switzerland",
+    "Population": "133798",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "19.93",
+    "area_rank": "4",
+    "GDP per capita (USD)": "86,919",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Luxembourg",
+    "Country": "Luxembourg",
+    "Population": "128512",
+    "Population_rank": "3",
+    "Continent": "Europe",
+    "Area (sq mile)": "19.87",
+    "area_rank": "4",
+    "GDP per capita (USD)": "117,182",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Monaco",
+    "Country": "Monaco",
+    "Population": "36371",
+    "Population_rank": "4",
+    "Continent": "Europe",
+    "Area (sq mile)": "0.81",
+    "area_rank": "4",
+    "GDP per capita (USD)": "173,696",
+    "GDP_rank": "1"
+  },
+  {
+    "Capital_city": "Vaduz",
+    "Country": "Liechtenstein",
+    "Population": "5668",
+    "Population_rank": "4",
+    "Continent": "Europe",
+    "Area (sq mile)": "6.7",
+    "area_rank": "4",
+    "GDP per capita (USD)": "180,227",
+    "GDP_rank": "1"
   }
 ]

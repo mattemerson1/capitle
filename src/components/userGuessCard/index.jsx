@@ -80,10 +80,29 @@ const UserGuessCard = (props) => {
   var isSouthAmerica = false;
   var isOceania = false;
 
+  const calculateGDP = (guess) => {
+    const gdp = findGDPByCity(guess)
+    return gdp
+  };
+
+  const findGDPByCity = (guess) => {
+    const cityData = capitalsData.find(cityData => cityData.Capital_city === guess);
+    return cityData && cityData.GDP_rank;
+  };
+  
+  const correctGDPRank = (guess) => {
+    const guessCityData = capitalsData.find(cityData => cityData.Capital_city === guess);
+    if (guessCityData.GDP_rank === props.currentAnswer.GDP_rank) {
+      return true
+    }
+    return false
+  }
+
   const calculateArea = (guess) => {
     const area = findAreaByCity(guess)
     return area
   };
+
 
   const findAreaByCity = (guess) => {
     const cityData = capitalsData.find(cityData => cityData.Capital_city === guess);
@@ -207,8 +226,8 @@ const UserGuessCard = (props) => {
             </Paper>
           </Grid>
           <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper} style={{backgroundColor: 'grey'}}>
-              <Typography>N/A</Typography>
+            <Paper className={classes.paper} style={{ backgroundColor: correctGDPRank(guess) ? 'green' : 'red' }}>
+              <Typography variant="h4">{calculateGDP(guess)}</Typography>
             </Paper>
           </Grid>
           <Grid item className={classes.guessResultsCard}>
