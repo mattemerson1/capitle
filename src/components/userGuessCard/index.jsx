@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
     rowSpacing: 2,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'grey',
+    // backgroundColor: 'grey',
     height: 80,
     display: 'flex'
   },
@@ -45,7 +45,7 @@ const useStyles = makeStyles(theme => ({
     rowSpacing: 2,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'grey',
+    // backgroundColor: 'grey',
     height: 25,
     display: 'flex'
   },
@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => ({
     rowSpacing: 2,
     alignItems: 'center',
     justifyContent: 'flex-start',
-    backgroundColor: 'grey',
+    // backgroundColor: 'grey',
     height: 80,
     display: 'flex'
   },
@@ -64,8 +64,8 @@ const useStyles = makeStyles(theme => ({
     justifyContent: "center",
     verticalAlign: "middle",
     backgroundColor: 'green',
-    height: 50,
-    width: 50,
+    height: 65,
+    width: 65,
     display: "flex",
     alignItems: "center"
   },
@@ -187,7 +187,7 @@ const UserGuessCard = (props) => {
         <Grid container className={classes.root}>
           <Grid item className={classes.guessResultsCard}>
             <Paper className={classes.paper} style={{ backgroundColor: correctPopulationRank(guess) ? 'green' : 'red' }}>
-              <Typography variant="h4" align="center">{calculatePopulation(guess)}</Typography>
+              <Typography variant="h4">{calculatePopulation(guess)}</Typography>
             </Paper>
           </Grid>
           <Grid item className={classes.guessResultsCard}>
@@ -207,19 +207,19 @@ const UserGuessCard = (props) => {
             </Paper>
           </Grid>
           <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} style={{backgroundColor: 'grey'}}>
               <Typography>N/A</Typography>
             </Paper>
           </Grid>
           <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} style={{backgroundColor: 'grey'}}>
               <Typography>N/A</Typography>
             </Paper>
           </Grid>
         </Grid>
         <Grid container className={classes.root}>
           <Grid item xs={12} className={classes.guessCard}>
-            <Typography>{guess}</Typography>
+            <Typography variant="h6">{guess}</Typography>
           </Grid>
         </Grid>
         </div>
