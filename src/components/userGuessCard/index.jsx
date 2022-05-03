@@ -80,6 +80,24 @@ const UserGuessCard = (props) => {
   var isSouthAmerica = false;
   var isOceania = false;
 
+  const calculateTemp = (guess) => {
+    const temp = findTempByCity(guess)
+    return temp
+  };
+
+  const findTempByCity = (guess) => {
+    const cityData = capitalsData.find(cityData => cityData.Capital_city === guess);
+    return cityData && cityData.temp_rank;
+  };
+
+  const correctTempRank = (guess) => {
+    const guessCityData = capitalsData.find(cityData => cityData.Capital_city === guess);
+    if (guessCityData.temp_rank === props.currentAnswer.temp_rank) {
+      return true
+    }
+    return false
+  };
+
   const calculateGDP = (guess) => {
     const gdp = findGDPByCity(guess)
     return gdp
@@ -89,14 +107,14 @@ const UserGuessCard = (props) => {
     const cityData = capitalsData.find(cityData => cityData.Capital_city === guess);
     return cityData && cityData.GDP_rank;
   };
-  
+
   const correctGDPRank = (guess) => {
     const guessCityData = capitalsData.find(cityData => cityData.Capital_city === guess);
     if (guessCityData.GDP_rank === props.currentAnswer.GDP_rank) {
       return true
     }
     return false
-  }
+  };
 
   const calculateArea = (guess) => {
     const area = findAreaByCity(guess)
@@ -183,64 +201,64 @@ const UserGuessCard = (props) => {
 
   return (
     <div className={classes.root}>
-        <Grid container className={classes.root} style={{color: 'white'}}>
-          <Grid item xs={2.4} style={{backgroundColor: 'black'}} className={classes.guessCard}>
-            {/* <Typography>Population</Typography> */}
-            <Typography>Population</Typography>
-          </Grid>
-          <Grid item xs={2.4} style={{backgroundColor: 'black'}} className={classes.guessCard}>
-            <Typography>Area </Typography>
-          </Grid>
-          <Grid item xs={2.4} style={{backgroundColor: 'black'}} className={classes.guessCard}>
-            <Typography>Continent </Typography>
-          </Grid>
-          <Grid item xs={2.4} style={{backgroundColor: 'black'}} className={classes.guessCard}>
-            <Typography>GDP </Typography>
-          </Grid>
-          <Grid item xs={2.4} style={{backgroundColor: 'black'}} className={classes.guessCard}>
-            <Typography>Temp </Typography>
-          </Grid>
+      <Grid container className={classes.root} style={{ color: 'white' }}>
+        <Grid item xs={2.4} style={{ backgroundColor: 'black' }} className={classes.guessCard}>
+          {/* <Typography>Population</Typography> */}
+          <Typography>Population</Typography>
         </Grid>
+        <Grid item xs={2.4} style={{ backgroundColor: 'black' }} className={classes.guessCard}>
+          <Typography>Area </Typography>
+        </Grid>
+        <Grid item xs={2.4} style={{ backgroundColor: 'black' }} className={classes.guessCard}>
+          <Typography>Continent </Typography>
+        </Grid>
+        <Grid item xs={2.4} style={{ backgroundColor: 'black' }} className={classes.guessCard}>
+          <Typography>GDP </Typography>
+        </Grid>
+        <Grid item xs={2.4} style={{ backgroundColor: 'black' }} className={classes.guessCard}>
+          <Typography>Temp </Typography>
+        </Grid>
+      </Grid>
       {props.guesses.map((guess) => (
         <div>
-        <Grid container className={classes.root}>
-          <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper} style={{ backgroundColor: correctPopulationRank(guess) ? 'green' : 'red' }}>
-              <Typography variant="h4">{calculatePopulation(guess)}</Typography>
-            </Paper>
+          <Grid container className={classes.root}>
+            <Grid item className={classes.guessResultsCard}>
+              <Paper className={classes.paper} style={{ backgroundColor: correctPopulationRank(guess) ? 'green' : 'red' }}>
+                <Typography variant="h4">{calculatePopulation(guess)}</Typography>
+              </Paper>
+            </Grid>
+            <Grid item className={classes.guessResultsCard}>
+              <Paper className={classes.paper} style={{ backgroundColor: correctAreaRank(guess) ? 'green' : 'red' }}>
+                <Typography variant="h4">{calculateArea(guess)}</Typography>
+              </Paper>
+            </Grid>
+            <Grid item className={classes.guessResultsCard}>
+              <Paper className={classes.paper} style={{ backgroundColor: correctContinent(guess) ? 'green' : 'red' }}>
+                {calculateContinent(guess)}
+                {isAfrica && <Africa />}
+                {isEurope && <Europe />}
+                {isSouthAmerica && <SouthAmerica />}
+                {isNorthAmerica && <NorthAmerica />}
+                {isOceania && <Oceania />}
+                {isAsia && <Asia />}
+              </Paper>
+            </Grid>
+            <Grid item className={classes.guessResultsCard}>
+              <Paper className={classes.paper} style={{ backgroundColor: correctGDPRank(guess) ? 'green' : 'red' }}>
+                <Typography variant="h4">{calculateGDP(guess)}</Typography>
+              </Paper>
+            </Grid>
+            <Grid item className={classes.guessResultsCard}>
+              <Paper className={classes.paper} style={{ backgroundColor: correctTempRank(guess) ? 'green' : 'red' }}>
+                <Typography variant="h4">{calculateTemp(guess)}</Typography>
+              </Paper>
+            </Grid>
           </Grid>
-          <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper} style={{ backgroundColor: correctAreaRank(guess) ? 'green' : 'red' }}>
-              <Typography variant="h4">{calculateArea(guess)}</Typography>
-            </Paper>
+          <Grid container className={classes.root}>
+            <Grid item xs={12} className={classes.guessCard}>
+              <Typography variant="h6">{guess}</Typography>
+            </Grid>
           </Grid>
-          <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper} style={{ backgroundColor: correctContinent(guess) ? 'green' : 'red' }}>
-              {calculateContinent(guess)}
-              {isAfrica && <Africa />}
-              {isEurope && <Europe />}
-              {isSouthAmerica && <SouthAmerica />}
-              {isNorthAmerica && <NorthAmerica />}
-              {isOceania && <Oceania />}
-              {isAsia && <Asia />}
-            </Paper>
-          </Grid>
-          <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper} style={{ backgroundColor: correctGDPRank(guess) ? 'green' : 'red' }}>
-              <Typography variant="h4">{calculateGDP(guess)}</Typography>
-            </Paper>
-          </Grid>
-          <Grid item className={classes.guessResultsCard}>
-            <Paper className={classes.paper} style={{backgroundColor: 'grey'}}>
-              <Typography>N/A</Typography>
-            </Paper>
-          </Grid>
-        </Grid>
-        <Grid container className={classes.root}>
-          <Grid item xs={12} className={classes.guessCard}>
-            <Typography variant="h6">{guess}</Typography>
-          </Grid>
-        </Grid>
         </div>
       ))}
     </div>
