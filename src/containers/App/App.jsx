@@ -57,7 +57,7 @@ const gameContainer = () => {
       <UserGuessCard guesses={guesses} currentAnswer={currentAnswer}/>
       <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} currentAnswer={currentAnswer}/>
       {correctGuess && <CorrectGuess guesses={guesses}/>}
-      {isEndGame && <EndGame/>}
+      {isEndGame && <EndGame currentAnswer={currentAnswer}/>}
     </div>
   );
 }
