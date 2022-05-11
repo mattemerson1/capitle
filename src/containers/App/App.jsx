@@ -16,21 +16,22 @@ const gameContainer = () => {
   const [currentAnswer, setCurrentAnswer] = useState({})
   const [correctGuess, setCorrectGuess] = useState(false)
   const [isEndGame, setIsEndGame] = useState(false);
-   
+  const [isGameWon, setIsGameWon] = useState(false);
+
   const randomCapital = () => {
-    const randomCapital = capitalsData[Math.floor(Math.random()*capitalsData.length)];
+    const randomCapital = capitalsData[Math.floor(Math.random() * capitalsData.length)];
     setCurrentAnswer(randomCapital)
   }
-    
+
   useEffect(() => {
     randomCapital()
-  },[])
-  
+  }, [])
+
   const addGuess = (guess) => {
     setGuesses([...guesses, guess])
     checkGuess(guess)
   };
-    
+
   const checkGuess = (guess) => {
     console.log("we made it", currentAnswer);
     if (guess === currentAnswer.Capital_city) {
@@ -42,8 +43,21 @@ const gameContainer = () => {
   const endGame = () => {
     setIsEndGame(true)
   }
-    
-    
+
+  const gameWon = () => {
+    setIsGameWon(true);
+  }
+
+  const restart = () => {
+    console.log("RESTART GAME");
+    setGuesses([]);
+    setCurrentAnswer({});
+    setIsEndGame(false);
+    randomCapital()
+
+  }
+
+
   return (
     <div>
       <Helmet>
@@ -51,13 +65,13 @@ const gameContainer = () => {
         <title itemProp="name" lang="en">Capitle: like globle but not quite</title>
         <meta name="description" content="Capitals quiz" />
       </Helmet>
-      <AppBar/>
+      <AppBar />
       {/* <h1>Capitle</h1> */}
       {/* <UserGuess guesses={guesses} currentAnswer={currentAnswer}/> */}
-      <UserGuessCard guesses={guesses} currentAnswer={currentAnswer}/>
-      <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} currentAnswer={currentAnswer}/>
-      {correctGuess && <CorrectGuess guesses={guesses}/>}
-      {isEndGame && <EndGame currentAnswer={currentAnswer}/>}
+      <UserGuessCard guesses={guesses} currentAnswer={currentAnswer} />
+      <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} gameWon={gameWon} currentAnswer={currentAnswer} isEndGame={isEndGame} isGameWon={isGameWon} />
+      {correctGuess && <CorrectGuess guesses={guesses} />}
+      {isEndGame && <EndGame currentAnswer={currentAnswer} restart={restart} />}
     </div>
   );
 }

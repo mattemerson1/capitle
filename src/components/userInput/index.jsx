@@ -27,10 +27,11 @@ const UserInput = (props) => {
 
   const handleWinGame = () => {
     setIsGameWon(true)
+    props.gameWon()
   }
 
   return (
-    <div style={{display: 'flex', justifyContent:'center', alignItems:'center', height: '20vh'}}>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '20vh' }}>
       <Autocomplete
         disablePortal
         key={""}
@@ -40,16 +41,16 @@ const UserInput = (props) => {
         sx={{ width: 300 }}
         value={userGuess || null}
         onChange={(e, newGuess) => {
-            addGuess(newGuess.Capital_city)
-            // e.preventDefault()
-          }}
-        disabled={isGameWon || isEndGame}
+          addGuess(newGuess.Capital_city)
+          // e.preventDefault()
+        }}
+        disabled={props.isGameWon || props.isEndGame}
         renderInput={(params) => <TextField
           {...params}
-          label="Enter capitial city:"
+          label="Enter capital city:"
         />}
       />
-    <div tabIndex={0} ref={ref} />
+      <div tabIndex={0} ref={ref} />
     </div>
   );
 };
