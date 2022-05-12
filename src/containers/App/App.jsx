@@ -16,7 +16,6 @@ const gameContainer = () => {
   const [currentAnswer, setCurrentAnswer] = useState({})
   const [correctGuess, setCorrectGuess] = useState(false)
   const [isEndGame, setIsEndGame] = useState(false);
-  const [isGameWon, setIsGameWon] = useState(false);
 
   const randomCapital = () => {
     const randomCapital = capitalsData[Math.floor(Math.random() * capitalsData.length)];
@@ -45,7 +44,7 @@ const gameContainer = () => {
   }
 
   const gameWon = () => {
-    setIsGameWon(true);
+    setCorrectGuess(true);
   }
 
   const restart = () => {
@@ -53,7 +52,8 @@ const gameContainer = () => {
     setGuesses([]);
     setCurrentAnswer({});
     setIsEndGame(false);
-    randomCapital()
+    setCorrectGuess(false);
+    randomCapital();
 
   }
 
@@ -69,8 +69,8 @@ const gameContainer = () => {
       {/* <h1>Capitle</h1> */}
       {/* <UserGuess guesses={guesses} currentAnswer={currentAnswer}/> */}
       <UserGuessCard guesses={guesses} currentAnswer={currentAnswer} />
-      <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} gameWon={gameWon} currentAnswer={currentAnswer} isEndGame={isEndGame} isGameWon={isGameWon} />
-      {correctGuess && <CorrectGuess guesses={guesses} />}
+      <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} gameWon={gameWon} currentAnswer={currentAnswer} isEndGame={isEndGame} correctGuess={correctGuess} />
+      {correctGuess && <CorrectGuess guesses={guesses} currentAnswer={currentAnswer} restart={restart} />}
       {isEndGame && <EndGame currentAnswer={currentAnswer} restart={restart} />}
     </div>
   );

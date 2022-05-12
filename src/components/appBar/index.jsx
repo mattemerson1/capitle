@@ -51,7 +51,7 @@ const EndGame = () => {
           >
             <Box sx={style} >
               <Typography id="modal-modal-title" variant="h6" component="h2">
-                How to play capitle
+                How to play Capitle
               </Typography>
               <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                 Your aim is to guess the randomly selected capital city using the fewest number of guesses.

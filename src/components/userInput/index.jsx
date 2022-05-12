@@ -44,7 +44,7 @@ const UserInput = (props) => {
           addGuess(newGuess.Capital_city)
           // e.preventDefault()
         }}
-        disabled={props.isGameWon || props.isEndGame}
+        disabled={props.correctGuess || props.isEndGame}
         renderInput={(params) => <TextField
           {...params}
           label="Enter capital city:"
