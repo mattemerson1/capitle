@@ -22,12 +22,22 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 330,
-  height: 850,
+  height: 775,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
 };
+
+const cellStyle = {
+  backgroundColor: 'black',
+  color: 'white',
+};
+
+const cellStyle2 = {
+  backgroundColor: 'grey',
+  color: 'black',
+}
 
 
 const useStyles = makeStyles(theme => ({
@@ -42,10 +52,10 @@ const createData = (rank, population, area, gdp, temp) => {
 }
 
 const rows = [
-  createData('1', '> 5,000,000', '> 500', '> 30,000', '> 23'),
-  createData('2', '5,000,000 - 1,000,000', '500 - 150', '30,000 - 10,000', '23 - 13'),
-  createData('3', '1,000,000 - 100,000', '150 - 25', '10,000 - 2,000', '13 - 6.5'),
-  createData('4', '< 100,000', '< 25', '< 2,000', '< 6.5'),
+  createData('1', '>5,000,000', '>500', '>30,000', '>23'),
+  createData('2', '5,000,000-1,000,000', '500-150', '30,000-10,000', '23-13'),
+  createData('3', '1,000,000-100,000', '150-25', '10,000-2,000', '13-6.5'),
+  createData('4', '<100,000', '<25', '<2,000', '<6.5'),
 ];
 
 const EndGame = () => {
@@ -87,27 +97,27 @@ const EndGame = () => {
                 Your aim is to guess the randomly selected capital city using the fewest number of guesses.
                 For each guess you will be able to see your proximity to the answer based off any matches in the 5 distict categories: Area, Continent, GDP, Population, and Avg Temp.
                 For categories which contain continious data sets the they are ranked into 4 levels, as shown in the table below.
-                If you guess a capital in the correct rank the relative square will be green, if it is incorrect the relative square will be red
+                If you guess a capital in the correct rank the relative square will be green, if it is incorrect the relative square will be red.
               </Typography>
               <TableContainer component={Paper}>
                 <Table style={{ position: 'relative', width: 10 }} aria-label="simple table">
                   <TableHead>
                     <TableRow>
-                      <TableCell align="left" className={classes.cell_short}>Rank</TableCell>
-                      <TableCell align="left" className={classes.cell_short}>Population</TableCell>
-                      <TableCell align="left" className={classes.cell_short}>Area (in sq mile)</TableCell>
-                      <TableCell align="left" className={classes.cell_short}>GDP (per capita USD)</TableCell>
-                      <TableCell align="left" className={classes.cell_short}>Temp (average annual temp per country)</TableCell>
+                      <TableCell align="left" style={cellStyle}>Rank</TableCell>
+                      <TableCell align="left" style={cellStyle}>Population</TableCell>
+                      <TableCell align="left" style={cellStyle}>Area (in sq mile)</TableCell>
+                      <TableCell align="left" style={cellStyle}>GDP (per capita USD)</TableCell>
+                      <TableCell align="left" style={cellStyle}>Temp (average annual temp per country)</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
                     {rows.map((row) => (
                       <TableRow key={row.rank}>
-                        <TableCell align="left" className={classes.cell_short}>{row.rank}</TableCell>
-                        <TableCell align="left" className={classes.cell_short}>{row.population}</TableCell>
-                        <TableCell align="left" className={classes.cell_short}>{row.area}</TableCell>
-                        <TableCell align="left" className={classes.cell_short}>{row.gdp}</TableCell>
-                        <TableCell align="left" className={classes.cell_short}>{row.temp}</TableCell>
+                        <TableCell align="left" style={cellStyle2}>{row.rank}</TableCell>
+                        <TableCell align="left" style={cellStyle2}>{row.population}</TableCell>
+                        <TableCell align="left" style={cellStyle2}>{row.area}</TableCell>
+                        <TableCell align="left" style={cellStyle2}>{row.gdp}</TableCell>
+                        <TableCell align="left" style={cellStyle2}>{row.temp}</TableCell>
                       </TableRow>
                     ))}
 
