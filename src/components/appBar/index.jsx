@@ -13,7 +13,6 @@ import Paper from '@mui/material/Paper';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 import IconButton from '@mui/material/IconButton';
 import Modal from '@mui/material/Modal';
-import { makeStyles } from "@material-ui/core/styles";
 
 
 const style = {
@@ -22,30 +21,21 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 330,
-  height: 775,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
   p: 4,
 };
 
-const cellStyle = {
+const cellHeaderStyle = {
   backgroundColor: 'black',
   color: 'white',
 };
 
-const cellStyle2 = {
-  backgroundColor: 'grey',
+const cellBodyStyle = {
+  backgroundColor: 'lightgrey',
   color: 'black',
-}
-
-
-const useStyles = makeStyles(theme => ({
-  cell_short: {
-    fontSize: "10px",
-    width: 10,
-  },
-}))
+};
 
 const createData = (rank, population, area, gdp, temp) => {
   return { rank, population, area, gdp, temp };
@@ -59,7 +49,6 @@ const rows = [
 ];
 
 const EndGame = () => {
-  const classes = useStyles();
   const [open, setOpen] = useState(false);
 
   const handleOpenModal = () => setOpen(true);
@@ -85,39 +74,45 @@ const EndGame = () => {
           <Modal
             open={open}
             onBackdropClick={handleCloseModal}
-            // onClose={handleCloseModal}
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
           >
-            <Box sx={style} >
-              <Typography id="modal-modal-title" variant="h6" component="h2">
+            <Box sx={style}  >
+              <Typography id="modal-modal-title" align="center" variant="h5" component="h2">
                 How to play Capitle
               </Typography>
-              <Typography id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
+              <Typography paragraph={true} id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
                 Your aim is to guess the randomly selected capital city using the fewest number of guesses.
+              </Typography>
+              <Typography paragraph={true} id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
                 For each guess you will be able to see your proximity to the answer based off any matches in the 5 distict categories: Area, Continent, GDP, Population, and Avg Temp.
+              </Typography>
+              <Typography paragraph={true} id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
                 For categories which contain continious data sets the they are ranked into 4 levels, as shown in the table below.
+              </Typography>
+              <Typography paragraph={true} id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
                 If you guess a capital in the correct rank the relative square will be green, if it is incorrect the relative square will be red.
               </Typography>
+
               <TableContainer component={Paper}>
                 <Table style={{ position: 'relative', width: 10 }} aria-label="simple table">
                   <TableHead>
                     <TableRow>
-                      <TableCell align="left" style={cellStyle}>Rank</TableCell>
-                      <TableCell align="left" style={cellStyle}>Population</TableCell>
-                      <TableCell align="left" style={cellStyle}>Area (in sq mile)</TableCell>
-                      <TableCell align="left" style={cellStyle}>GDP (per capita USD)</TableCell>
-                      <TableCell align="left" style={cellStyle}>Temp (average annual temp per country)</TableCell>
+                      <TableCell align="left" sx={cellHeaderStyle} >Rank</TableCell>
+                      <TableCell align="left" sx={cellHeaderStyle}>Population</TableCell>
+                      <TableCell align="left" sx={cellHeaderStyle}>Area (in sq mile)</TableCell>
+                      <TableCell align="left" sx={cellHeaderStyle}>GDP (per capita USD)</TableCell>
+                      <TableCell align="left" sx={cellHeaderStyle}>Temp (average annual temp per country)</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
                     {rows.map((row) => (
                       <TableRow key={row.rank}>
-                        <TableCell align="left" style={cellStyle2}>{row.rank}</TableCell>
-                        <TableCell align="left" style={cellStyle2}>{row.population}</TableCell>
-                        <TableCell align="left" style={cellStyle2}>{row.area}</TableCell>
-                        <TableCell align="left" style={cellStyle2}>{row.gdp}</TableCell>
-                        <TableCell align="left" style={cellStyle2}>{row.temp}</TableCell>
+                        <TableCell align="left" sx={cellBodyStyle}>{row.rank}</TableCell>
+                        <TableCell align="left" sx={cellBodyStyle}>{row.population}</TableCell>
+                        <TableCell align="left" sx={cellBodyStyle}>{row.area}</TableCell>
+                        <TableCell align="left" sx={cellBodyStyle}>{row.gdp}</TableCell>
+                        <TableCell align="left" sx={cellBodyStyle}>{row.temp}</TableCell>
                       </TableRow>
                     ))}
 
