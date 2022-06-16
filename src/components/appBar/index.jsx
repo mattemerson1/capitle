@@ -11,6 +11,7 @@ import TableBody from '@mui/material/TableBody';
 import TableContainer from '@mui/material/TableContainer';
 import Paper from '@mui/material/Paper';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
+import CloseIcon from '@mui/icons-material/Close';
 import IconButton from '@mui/material/IconButton';
 import Modal from '@mui/material/Modal';
 
@@ -21,7 +22,7 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 330,
-  height: 650,
+  height: 700,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -80,11 +81,22 @@ const EndGame = () => {
           >
             <Box sx={style} height='100vh' display='flex' flexDirection='column'>
               <Box >
-                <Typography id="modal-modal-title" align="center" variant="h5" component="h2">
+                <Typography id="modal-modal-title" align="center" variant="h5" component="h2" style={{ fontWeight: 600, textDecoration: "underline" }}>
                   How to play Capitle
+                  <Box style={{ position: 'absolute', right: 15, top: 15 }} >
+                    <IconButton
+                      size="large"
+                      edge="end"
+                      color="inherit"
+                      aria-label="menu"
+                      onClick={handleCloseModal}
+                    >
+                      <CloseIcon />
+                    </IconButton>
+                  </Box>
                 </Typography>
                 <Typography paragraph={true} id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
-                  Your aim is to guess the randomly selected capital city using the fewest number of guesses.
+                  Your aim is to guess the randomly selected capital city using the fewest number of guesses in 8 attempts.
                 </Typography>
                 <Typography paragraph={true} id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
                   For each guess you will be able to see your proximity to the answer based off any matches in the 5 distict categories: Area, Continent, GDP, Population, and Avg Temp.
@@ -95,7 +107,7 @@ const EndGame = () => {
                 <Typography paragraph={true} id="modal-modal-description" variant="body2" sx={{ mt: 2 }}>
                   If you guess a capital in the correct rank the relative square will be green, if it is incorrect the relative square will be red.
                 </Typography>
-                <TableContainer style={{position: 'relative', height: 200}} component={Paper}>
+                <TableContainer style={{ position: 'relative', height: 250 }} component={Paper}>
                   <Table aria-label="simple table">
                     <TableHead>
                       <TableRow>

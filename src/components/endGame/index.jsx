@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import IconButton from '@mui/material/IconButton';
+import Share from '../share';
 
 const style = {
   position: 'absolute',
@@ -42,6 +43,8 @@ const EndGame = (props) => {
         >
           <RestartAltIcon />
         </IconButton>
+        <Share guesses={props.guesses} />
+
       </Box>
     </Modal>
   </div>

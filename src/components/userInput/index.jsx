@@ -15,7 +15,7 @@ const UserInput = (props) => {
     setUserGuess("");
     if (userGuess === props.currentAnswer.Capital_city) {
       handleWinGame()
-    } else if (props.guesses.length > 4) {
+    } else if (props.guesses.length > 6) {
       handleEndGame()
     }
   }

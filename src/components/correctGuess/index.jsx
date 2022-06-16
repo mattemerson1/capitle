@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import IconButton from '@mui/material/IconButton';
-
+import Share from '../share';
 const style = {
   position: 'absolute',
   top: '50%',
@@ -25,7 +25,7 @@ const CorrectGuess = (props) => {
     props.restart()
   }
 
-  return ( <div>
+  return (<div>
     <Modal
       open={true}
       aria-label="modal-modal-title"
@@ -45,6 +45,7 @@ const CorrectGuess = (props) => {
         >
           <RestartAltIcon />
         </IconButton>
+        <Share guesses={props.guesses} gameWon={true}/>
       </Box>
     </Modal>
   </div>

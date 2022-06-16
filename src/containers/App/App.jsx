@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet';
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import capitalsData from '../../data/capitals_data.json';
+import { ToastContainer } from 'react-toastify';
 
 
 const gameContainer = () => {
@@ -68,8 +69,9 @@ const gameContainer = () => {
       <AppBar />
       <UserGuessCard guesses={guesses} currentAnswer={currentAnswer} />
       <UserInput addGuess={addGuess} guesses={guesses} endGame={endGame} gameWon={gameWon} currentAnswer={currentAnswer} isEndGame={isEndGame} correctGuess={correctGuess} />
-      {correctGuess && <CorrectGuess guesses={guesses} currentAnswer={currentAnswer} restart={restart} />}
-      {isEndGame && <EndGame currentAnswer={currentAnswer} restart={restart} />}
+      {correctGuess && <CorrectGuess guesses={guesses} currentAnswer={currentAnswer} restart={restart} correctGuess={correctGuess}/>}
+      {isEndGame && <EndGame guesses={guesses} currentAnswer={currentAnswer} restart={restart} correctGuess={correctGuess}/>}
+      <ToastContainer/>
     </div>
   );
 }
