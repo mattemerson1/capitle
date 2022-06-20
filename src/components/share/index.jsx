@@ -20,6 +20,7 @@ const Share = (props) => {
   const title = `#Worldle ${guessCount}/6`;
   const theme = "light";
   let shareText
+  const address = "www.capitle.co.uk";
 
 
 
@@ -35,13 +36,13 @@ const Share = (props) => {
     shareText = `Capitle score: ${props.guesses.length}/8 ✅`;
   }
   else {
-    shareText =`Capitle score: ${props.guesses.length}/8 ❌`;
+    shareText = `Capitle score: ${props.guesses.length}/8 ❌`;
   }
 
 
   return (
     <CopyToClipboard
-      text={shareText}
+      text={[shareText, address].join('\n')}
       onCopy={() => toast.success('Copied results to clipboard', {
         position: "top-center",
         autoClose: 5000,
